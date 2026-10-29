@@ -34,4 +34,4 @@
 
 ## Connection status (October 29, 2026)
 
-GitHub source is populated and the public site is still served by the existing Vercel project. The Git repository has **not** yet been confirmed linked to that project. Complete **Settings → Git → Connect Git Repository** in the existing project, granting the Vercel GitHub app access to this repository if it is not listed. Do not create a duplicate Vercel project or replace the production domain. After connecting, verify one PR preview and one reviewed `main` deployment before declaring auto-publishing live.
+GitHub source is populated and the public site is still served by the existing Vercel project. The Git repository connection is now confirmed: the existing Vercel project `prj_2OKGsITN6CIG9LsikjdXWQ5O8jaS` links to `defford/today-in-gfw`. The GitHub App already recognizes the repo; do not create another Vercel project. This pull request includes a documentation-only commit to trigger and validate a Vercel Git preview. Do not create a duplicate Vercel project or replace the production domain. After connecting, verify one PR preview and one reviewed `main` deployment before declaring auto-publishing live.

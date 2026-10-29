@@ -15,7 +15,8 @@
       "source": "Town of Grand Falls-Windsor",
       "sourceUrl": "https://grandfallswindsor.com/discretionary-use-application-scott-avenue/",
       "deadline": "October 28",
-      "readTime": "2 min"
+      "readTime": "2 min",
+      "expiresOn": "2026-10-28"
     },
     {
       "id": "STORY-02",
@@ -54,7 +55,8 @@
       "why": "Keeping established streets and underground infrastructure reliable is as important to everyday livability as adding new subdivisions.",
       "source": "Town of Grand Falls-Windsor",
       "sourceUrl": "https://grandfallswindsor.com/construction-notice-july-13-october-30-2026/",
-      "readTime": "1 min"
+      "readTime": "1 min",
+      "expiresOn": "2026-10-30"
     },
     {
       "id": "STORY-05",

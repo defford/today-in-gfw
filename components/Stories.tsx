@@ -9,7 +9,7 @@ function validSource(url: string) {
 }
 export default function Stories({ stories }: { stories: Story[] }) {
   return <div className="stories-grid" id="stories-grid">
-    {stories.map((s, index) => <article key={s.id} className={`story-card ${index === 0 ? "feature" : ""}`}>
+    {stories.map((s, index) => <article id={s.id} key={s.id} className={`story-card ${index === 0 ? "feature" : ""}`}>
       
       <h3>{s.title}</h3><p className="story-summary">{s.summary}</p>
       {index === 0 && <div className="story-why"><b>WHY IT MATTERS</b><br />{s.why}</div>}

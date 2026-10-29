@@ -6,7 +6,7 @@ import { articles, longDate, perspectiveData } from "@/lib/perspectives";
 
 export const metadata: Metadata = {
   title: "The Bigger Picture | Today in GFW",
-  description: "An evolving civic journal examining the history, housing, economy, public realm and shared life of Grand Falls-Windsor and the Exploits Valley.",
+  description: "An evolving civic journal examining the history, housing, economy, public realm and shared life of Grand Falls-Windsor.",
   alternates: {canonical:"/bigger-picture"}
 };
 export default function BiggerPicture(){
@@ -18,7 +18,7 @@ export default function BiggerPicture(){
     <p className="journal-lede">The history we tell ourselves shapes the future we think is possible. These essays make a case about the place we live—through its people, streets, public decisions and contradictions.</p>
     <div className="journal-intro-action"><a href="#essays">Explore the findings <span>↘</span></a><span>FIRST RESEARCH EDITION · {longDate(perspectiveData.edition)}</span></div>
    </div>
-   <aside className="journal-map" aria-label="Five lenses for understanding GFW"><div className="journal-map-surface"><span className="journal-map-overline">OUR WORKING PICTURE</span><div className="journal-map-orbit"><span className="orbit-dot d1"/><span className="orbit-dot d2"/><span className="orbit-dot d3"/><span className="orbit-dot d4"/><span className="orbit-dot d5"/><div className="map-core">GFW<br/><small>& THE VALLEY</small></div></div><div className="journal-map-legend"><span>IDENTITY</span><span>HOUSING</span><span>ECONOMY</span><span>BELONGING</span><span>PUBLIC REALM</span></div></div><p>Five arguments about the same place. Each grounded in sources, each open to correction.</p></aside>
+   <aside className="journal-map" aria-label="Five lenses for understanding GFW"><div className="journal-map-surface"><span className="journal-map-overline">OUR WORKING PICTURE</span><div className="journal-map-orbit"><span className="orbit-dot d1"/><span className="orbit-dot d2"/><span className="orbit-dot d3"/><span className="orbit-dot d4"/><span className="orbit-dot d5"/><div className="map-core">GFW<br/><small>ONE TOWN</small></div></div><div className="journal-map-legend"><span>IDENTITY</span><span>HOUSING</span><span>ECONOMY</span><span>BELONGING</span><span>PUBLIC REALM</span></div></div><p>Five arguments about the same place. Each grounded in sources, each open to correction.</p></aside>
   </div></section>
   <section id="essays" className="journal-archive"><div className="wrap">
    <div className="journal-section-title"><div><span>01 / THE RESEARCH DESK</span><h2>The ongoing <em>story.</em></h2></div><p>We follow the facts, but we do not stop at listing them. Each piece takes a position and shows the evidence behind it.</p></div>

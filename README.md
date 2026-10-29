@@ -1,6 +1,6 @@
 # Today in GFW (Next.js)
 
-Next.js 16 App Router and React 19 project for the Grand Falls-Windsor / Exploits Valley daily briefing and event directory.
+Next.js 16 App Router and React 19 project for the Grand Falls-Windsor-only daily briefing and event directory.
 
 ## Develop
 
@@ -15,14 +15,16 @@ npm run build
 
 - `app/page.tsx`: server-rendered civic briefing, with GFW-local calendar day (America/St_Johns).
 - `components/Stories.tsx`: attributed editorial stories.
-- `components/EventCalendar.tsx`: interactive regional/category/time filters; expands weekly and multi-day registry entries, never invents times.
-- `data/events.json`: normalized 2026-10-28 Exploits Events Registry snapshot, retaining original event IDs and original source links when available.
+- `components/EventCalendar.tsx`: interactive GFW-only event calendar with category/time filters; expands weekly and multi-day entries, never invents times.
+- `data/events.json`: normalized 2026-10-28 Exploits Events Registry snapshot, retaining all towns, original event IDs and original source links when available. The **public calendar filters to Grand Falls-Windsor**, without modifying this broader source.
 - `data/stories.json`: manually verified editorial snapshot with source URLs.
 - `scripts/import_events.py`: transforms later registry exports into `data/events.json`.
 
 **Editorial honesty:** The website displays an edition snapshot, not a claimed daily automatic feed. Past date-specific notices are hidden once past; old article headlines remain labelled as first-edition material. Event last-reviewed date is shown when the snapshot becomes old. Data updates require a new build/deployment. No Facebook scraping or automated publication is configured.
 
 **Next steps:** Connect the source of truth for the registry through a least-privilege backend, add a reviewed daily publication workflow, and then add a public corrections form with moderation. Do not automate public content before source/approval controls exist.
+
+**Public editorial geography:** Today in GFW covers events, decisions, local history and civic life **inside Grand Falls-Windsor only**. Do not add neighbouring-town names, regional event listings, or valley-wide language to the public site. Regional research is permissible only as background when assessing a concrete GFW outcome. The external Exploits Events Registry remains regional and is not narrowed by this policy.
 
 ## The Bigger Picture — a public civic research journal
 

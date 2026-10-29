@@ -4,11 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://today-in-gfw.vercel.app"),
   title: "Today in GFW · Your community, in context",
-  description: "A source-transparent community briefing and calendar for Grand Falls-Windsor and the Exploits Valley.",
+  description: "A source-transparent community briefing and calendar for Grand Falls-Windsor.",
   icons: { icon: "/icon.svg" },
   openGraph: {
     title: "Today in GFW — Your community, in context",
-    description: "Stories, events and decisions shaping Grand Falls-Windsor and the Exploits Valley.",
+    description: "Stories, events and decisions shaping Grand Falls-Windsor.",
     type: "website",
     images: [{ url: "/assets/social-card.png", width: 1200, height: 630, alt: "Today in GFW – Your community, in context" }],
   },

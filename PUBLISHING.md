@@ -2,7 +2,7 @@
 
 ## Source of truth
 
-- Repository (to create): `defford/today-in-gfw` (recommend **private** until editorial process is established).
+- GitHub source of truth: `defford/today-in-gfw` (created and populated; currently **public**).
 - Production: Vercel project `today-in-gfw` (`prj_2OKGsITN6CIG9LsikjdXWQ5O8jaS`), domain `today-in-gfw.vercel.app`.
 - Long-form articles: `data/perspectives.json`; homepage stories: `data/stories.json`.
 - Events: `data/events.json` (generated snapshot of the separate Exploits Events Registry; never infer absent times).
@@ -17,13 +17,13 @@
 5. Review the preview and evidence; then approve and merge. Vercel Git integration deploys `main` to production.
 6. Verify the deployment is READY, with `today-in-gfw.vercel.app` assigned and working, **before** reporting the article as published. If it fails, leave the previous production version in place and report the blocker.
 
-## First-time connection (requires repository creation)
+## Existing-project Vercel connection
 
 1. Create an empty GitHub repository named `today-in-gfw` under account `defford` (no generated README, .gitignore or license). Prefer private visibility.
 2. Upload/push the entire contents of this package to its `main` branch; use GitHub App/connector for authenticated writes if available.
 3. In the **existing** Vercel project `today-in-gfw`, go to **Settings → Git → Connect Git Repository** and link `defford/today-in-gfw`; select `main` as the production branch. Do NOT create a second Vercel site or move the domain.
-4. Let Vercel build. Confirm that the existing production domain points to the Git-backed deployment and that all five journal articles, `/credits`, and the event calendar work.
-5. Protect `main` and require quality checks and a reviewed PR for consequential changes, subject to your GitHub plan's branch-rules support.
+3. Let Vercel build. Confirm that the existing production domain points to the Git-backed deployment and that all five journal articles, `/credits`, and the event calendar work.
+4. Protect `main` and require quality checks and a reviewed PR for consequential changes, subject to your GitHub plan's branch-rules support.
 
 ## Safety and freshness
 
@@ -31,3 +31,7 @@
 - The automated editorial task can propose branches/PRs using GitHub tools only after the actual repository is connected. Do not use stale Vercel deployment snapshots as source code.
 - Avoid storing API tokens in repo files or logs. Vercel Git integration requires no GitHub Actions deployment token.
 - The GitHub Actions check verifies **structure**, not truth. Source verification, image rights, balanced interpretation and final approval are editorial responsibilities.
+
+## Connection status (October 29, 2026)
+
+GitHub source is populated and the public site is still served by the existing Vercel project. The Git repository connection is now confirmed: the existing Vercel project `prj_2OKGsITN6CIG9LsikjdXWQ5O8jaS` links to `defford/today-in-gfw`. The GitHub App already recognizes the repo; do not create another Vercel project. This pull request includes a documentation-only commit to trigger and validate a Vercel Git preview. Do not create a duplicate Vercel project or replace the production domain. After connecting, verify one PR preview and one reviewed `main` deployment before declaring auto-publishing live.

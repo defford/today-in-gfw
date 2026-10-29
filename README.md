@@ -24,7 +24,7 @@ npm run build
 
 **Next steps:** Connect the source of truth for the registry through a least-privilege backend, add a reviewed daily publication workflow, and then add a public corrections form with moderation. Do not automate public content before source/approval controls exist.
 
-**Public editorial geography:** Today in GFW covers events, decisions, local history and civic life **inside Grand Falls-Windsor only**. Do not add neighbouring-town names, regional event listings, or valley-wide language to the public site. Regional research is permissible only as background when assessing a concrete GFW outcome. The external Exploits Events Registry remains regional and is not narrowed by this policy.
+**Public editorial geography and naming:** Today in GFW covers events, decisions, history and civic life **inside Grand Falls-Windsor only**. The present-day town must **always** be written as **Grand Falls-Windsor** (GFW is acceptable as a shorthand). Do not divide the current town into "Grand Falls" and "Windsor" in headlines, location tags, marketing, calendar entries, captions, explanatory text or metadata. Name the former municipalities individually **only when explicitly discussing the period before the 1991 amalgamation**, with that historical framing clearly stated. Avoid "two histories", "two communities" or "both sides" as present-day identity labels. Do not add neighbouring-town names, regional event listings or valley-wide language to the public site. The independent Exploits Events Registry remains regional and is not narrowed by this policy.
 
 ## The Bigger Picture — a public civic research journal
 

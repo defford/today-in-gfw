@@ -5,17 +5,17 @@
     {
       "slug": "two-towns-one-future",
       "category": "Identity & history",
-      "eyebrow": "01 / A PLACE WITH TWO ORIGINS",
-      "title": "Grand Falls was designed. Windsor was made.",
-      "dek": "The railway tracks once divided more than two neighbourhoods. They separated a planned company town from the people building a life beyond its permission—and left GFW two very different kinds of inheritance.",
+      "eyebrow": "01 / BEFORE THE 1991 AMALGAMATION",
+      "title": "Before 1991: Grand Falls was designed. Windsor was made.",
+      "dek": "Before the 1991 amalgamation that created Grand Falls-Windsor, the railway tracks divided a planned company town from people building a life beyond its permission. That history still matters.",
       "featured": true,
       "graphic": "heritage",
       "date": "2026-10-28",
-      "updated": "2026-10-28",
+      "updated": "2026-10-29",
       "readTime": 5,
       "status": "Working interpretation",
       "cardText": "The planned company town and the independent streets beyond its tracks tell a harder, richer story about belonging.",
-      "thesis": "The most useful thing about GFW’s two histories is not that they fit neatly together. It is that one tradition organized a town from above while another learned to build one from below. A future worth having needs both—and must remember who paid for the difference.",
+      "thesis": "Before the 1991 amalgamation, one tradition organized a town from above while another learned to build one from below. Those distinct historical experiences offer lessons for the single town of Grand Falls-Windsor today.",
       "facts": [
         {
           "label": "1909",
@@ -54,14 +54,14 @@
           "heading": "The mill ended. Its organizing logic did not disappear overnight",
           "body": [
             "When the mill closed in 2009, GFW lost much more than an employer. It lost the institution around which a century of economic expectations had formed. The temptation since then has been to ask what major project could replace it. That question is understandable, but it may be the wrong inheritance to preserve. A modern economy is unlikely to arrive with a single organization prepared to provide a town’s jobs, social calendar, streetscape and confidence all at once.",
-            "The more promising inheritance is twofold: Grand Falls’ belief that public life deserves deliberate investment, and Windsor’s demonstration that people outside an established system can create institutions themselves. The town’s 2024 acquisition of former mill lands makes this more than a historical metaphor. Land once tied to a dominant industrial enterprise is now part of the Town’s long-term decisions about public access, development and movement. Who shapes it next is a civic question, not only a real-estate question."
+            "The more promising inheritance comes from the town’s pre-1991 history: deliberate investment in public life alongside the determination of people who built independent businesses and institutions. The town’s 2024 acquisition of former mill lands makes this more than a historical metaphor. Land once tied to a dominant industrial enterprise is now part of the Town’s long-term decisions about public access, development and movement. Who shapes it next is a civic question, not only a real-estate question."
           ]
         },
         {
           "heading": "A shared name is not yet a shared account of the place",
           "body": [
-            "The story GFW tells about itself should make room for the laid-out streets and public buildings of Grand Falls, for the merchants and immigrant families who made Windsor’s Main Street, and for the generations whose lives are not defined by the mill at all. That does not mean issuing a more inclusive slogan. It means taking the local historical record seriously enough to show its conflicts, its people and its unfinished work.",
-            "A town that describes Windsor only as “entrepreneurial” and Grand Falls only as “planned” misses the social conditions that produced both. A town that remembers only the mill risks treating everything since 2009 as an epilogue. GFW’s next identity may emerge less from finding a replacement industrial hero than from deciding whose efforts count as town-building in the first place."
+            "The story Grand Falls-Windsor tells about itself should make room for its pre-amalgamation planned streets and public buildings, for the merchants and immigrant families who helped make Main Street, and for the generations whose lives are not defined by the mill at all. That does not mean issuing a more inclusive slogan. It means taking the local historical record seriously enough to show its conflicts, its people and its unfinished work.",
+            "Describing the former towns before 1991 as merely “entrepreneurial” or “planned” misses the social conditions that produced both. A town that remembers only the mill risks treating everything since 2009 as an epilogue. GFW’s next identity may emerge less from finding a replacement industrial hero than from deciding whose efforts count as town-building in the first place."
           ]
         }
       ],
@@ -76,7 +76,7 @@
       "questions": [
         "Whose histories are missing from the Town’s most visible heritage interpretation?",
         "What would the former mill lands become if community access and local initiative were treated as primary design criteria?",
-        "How do younger residents and newcomers understand the Grand Falls/Windsor distinction?"
+        "What do younger residents and newcomers know about local life before the 1991 amalgamation?"
       ],
       "sources": [
         {
@@ -101,6 +101,10 @@
         "river-as-civic-spine"
       ],
       "log": [
+        {
+          "date": "2026-10-29",
+          "note": "Clarified the town's unified present-day identity as Grand Falls-Windsor; separate pre-amalgamation names appear only within explicitly historical context."
+        },
         {
           "date": "2026-10-28",
           "note": "Major editorial revision: replaced procedural summaries with a more specific, argument-led essay; added historical or operational detail and primary sources. Claims remain open to correction."
@@ -434,12 +438,12 @@
       "slug": "river-as-civic-spine",
       "category": "Place & public realm",
       "eyebrow": "05 / THE LAND BETWEEN US",
-      "title": "The river made Grand Falls. Who gets to use it now?",
+      "title": "The river shaped Grand Falls-Windsor. Who gets to use it now?",
       "dek": "The Exploits helped create an industrial town. Its next civic role may be decided less by spectacular new attractions than by the ordinary question of who can reach it.",
       "featured": false,
       "graphic": "river",
       "date": "2026-10-28",
-      "updated": "2026-10-28",
+      "updated": "2026-10-29",
       "readTime": 4,
       "status": "Spatial hypothesis",
       "cardText": "Former mill land, the Mill Stretch and river parks make access—not just scenery—the important story.",
@@ -462,7 +466,7 @@
         {
           "heading": "The river was an engine before it was a view",
           "body": [
-            "Grand Falls exists where it does in large part because the Exploits offered timber, water power and the industrial geography a paper mill needed. The river was not incidental decoration. It helped determine the settlement, its workforce and its economic purpose. The planned town grew beside a productive landscape whose value was measured in what it could make.",
+            "Long before Grand Falls-Windsor’s 1991 amalgamation, the planned industrial settlement took shape beside the Exploits because the river offered timber, water power and the geography a paper mill needed. The river was not incidental decoration. It helped determine the settlement, its workforce and its economic purpose. The early company town grew beside a productive landscape whose value was measured in what it could make.",
             "Today the river is described differently: salmon, trails, waterfalls, Gorge Park, scenery and wildlife. That change is not superficial. It reflects a different relationship between land and town. An industrial river makes power and products. A civic river gives people somewhere to walk, meet, fish, pause and understand where they live. The question is whether that second relationship is as accessible in daily life as it is in visitor brochures."
           ]
         },
@@ -484,7 +488,7 @@
           "heading": "The useful inheritance is access",
           "body": [
             "The river should not be asked to solve every economic or identity problem. Nor should housing proposals near open space automatically be portrayed as threats to an established corridor; boundaries, land rights and routes have to be checked. But it is reasonable to insist that growth plans treat public connections as real assets, not leftover strips of land waiting for a better use.",
-            "Grand Falls was shaped by a river that supplied the industry organizing the town. Its next chapter could be shaped by residents who can actually approach that river and move through its landscape. The ambition need not start with a suspension bridge. It can start with something less photogenic and more revealing: a public path that goes somewhere, is safe to use and stays open."
+            "The river helped shape the industrial origins of Grand Falls-Windsor. Its next chapter could be shaped by residents who can actually approach that river and move through its landscape. The ambition need not start with a suspension bridge. It can start with something less photogenic and more revealing: a public path that goes somewhere, is safe to use and stays open."
           ]
         }
       ],
@@ -515,7 +519,7 @@
           "url": "https://grandfallswindsor.com/visitor/"
         },
         {
-          "label": "Provincial water-quality station — access and terrain near Grand Falls",
+          "label": "Provincial water-quality station — Exploits River area",
           "url": "https://www.canal.gov.nl.ca/root/main/station_details_e.asp?envirodat=NF02YO0001"
         },
         {
@@ -528,6 +532,10 @@
         "housing-proposals-to-homes"
       ],
       "log": [
+        {
+          "date": "2026-10-29",
+          "note": "Clarified the town's unified present-day identity as Grand Falls-Windsor; separate pre-amalgamation names appear only within explicitly historical context."
+        },
         {
           "date": "2026-10-28",
           "note": "Major editorial revision: replaced procedural summaries with a more specific, argument-led essay; added historical or operational detail and primary sources. Claims remain open to correction."

@@ -1,13 +1,13 @@
 # Today in GFW — Visual identity and licensed assets
 
-Updated: October 28, 2026. These styles are for an **independent community publication**, NOT the official Town of Grand Falls-Windsor brand.
+Updated: October 29, 2026. These styles are for an **independent community publication**, NOT the official Town of Grand Falls-Windsor brand.
 
 ## Findings from research
 
 - **Municipal town identity (reference only):** The municipality uses the *Perfectly Centered* phrase and an orange tree-and-two-houses symbol, adopted in 2011. Reported symbolism: community, balance, green space, sustainability, growth and geographic centrality. Sources: https://grandfallswindsor.com/ and https://www.crwflags.com/Fotw/Flags/ca-nlgfw.html.
-- **Built heritage:** Harmsworth Hall, on High Street, was built in 1929 and became the town hall; it represents the planned Grand Falls tradition. Source: https://heritagenl.ca/heritage-property/harmsworth-hall-registered-heritage-structure/.
-- **Landscape and regional scope:** The Exploits River, Salmonid Interpretation Centre, Corduroy Brook, Gorge Park and the neighbouring Exploits communities offer a more inclusive shared identity than a single municipal symbol. Source: https://exploreexploits.ca/towns-communities/grand-falls-windsor/.
-- **One town, two histories:** Municipal planning has called for a brand that connects both historic communities; the publication spans the wider valley rather than imitating municipal institutional branding. Source: https://www.gov.nl.ca/mca/files/Grand_Falls-Windsor_MP.pdf.
+- **Built heritage:** Harmsworth Hall, on High Street, was built in 1929 and became the town hall; it reflects the area's pre-1991 company-town history. Source: https://heritagenl.ca/heritage-property/harmsworth-hall-registered-heritage-structure/.
+- **Landscape and GFW-only scope:** The Exploits River, Salmonid Interpretation Centre, Corduroy Brook and Gorge Park provide place-specific elements of Grand Falls-Windsor's landscape and public life. Source: https://exploreexploits.ca/towns-communities/grand-falls-windsor/.
+- **One town with a documented history:** Always refer to the present-day municipality as **Grand Falls-Windsor** (or GFW after establishing the full name). Name the former towns separately only in explicitly pre-1991 historical discussion. Public branding, geography and event listings must not suggest an ongoing civic division or include other municipalities. Source: https://www.gov.nl.ca/mca/files/Grand_Falls-Windsor_MP.pdf.
 
 ## Editorial identity
 

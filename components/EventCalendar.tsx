@@ -76,25 +76,24 @@ function EventRow({ event: e }: { event: Occurrence }) {
 }
 export default function EventCalendar({ events, asOf, today }: { events: RegistryEvent[]; asOf: string; today: string }) {
   const [period, setPeriod] = useState<Period>("7");
-  const [town, setTown] = useState("all");
   const [category, setCategory] = useState("all");
   const [search, setSearch] = useState("");
   const entries = useMemo(() => {
     const cutoff = addDays(today, period === "today" ? 0 : Number(period) - 1);
-    return events.flatMap(e => expand(e, today))
-      .filter(e => e.date <= cutoff && (town === "all" || e.town === town) && categorize(e, category))
+    return events.filter(e => e.town === "Grand Falls-Windsor").flatMap(e => expand(e, today))
+      .filter(e => e.date <= cutoff && categorize(e, category))
       .filter(e => !search.trim() || `${e.title} ${e.venue} ${e.town} ${e.notes || ""}`.toLowerCase().includes(search.toLowerCase().trim()))
       .sort((a, b) => a.date.localeCompare(b.date) || sortTime(a.time) - sortTime(b.time) || a.title.localeCompare(b.title));
-  }, [events, today, period, town, category, search]);
-  const reset = () => { setPeriod("7"); setTown("all"); setCategory("all"); setSearch(""); };
+  }, [events, today, period, category, search]);
+  const reset = () => { setPeriod("7"); setCategory("all"); setSearch(""); };
   let prev = "";
   return <>
     <div className="event-toolbar"><div className="tabs" role="group" aria-label="When">
       {([ ["today", "Today"], ["7", "Next 7 days"], ["30", "Next 30 days"] ] as const).map(([v, label]) => <button key={v} type="button" className={`tab ${period === v ? "active" : ""}`} onClick={() => setPeriod(v)} aria-pressed={period === v}>{label}</button>)}
     </div><label className="search-box"><span aria-hidden="true">⌕</span><input type="search" aria-label="Search events" placeholder="Search events or places…" value={search} onChange={e => setSearch(e.target.value)} /></label></div>
-    <div className="filter-row"><label className="filter-label" htmlFor="town-filter">LOCATION</label><select id="town-filter" value={town} onChange={e => setTown(e.target.value)}><option value="all">All communities</option>{["Grand Falls-Windsor", "Bishop's Falls", "Botwood", "Norris Arm", "Gander"].map(t => <option key={t} value={t}>{t === "Gander" ? "Nearby: Gander" : t}</option>)}</select><label className="filter-label" htmlFor="category-filter">INTEREST</label><select id="category-filter" value={category} onChange={e => setCategory(e.target.value)}><option value="all">Everything</option><option value="music">Music & nights out</option><option value="family">Family & kids</option><option value="arts">Arts & creativity</option><option value="markets">Markets & fairs</option><option value="community">Community</option></select><span className="event-count" aria-live="polite">{entries.length} {entries.length === 1 ? "listing" : "listings"}</span></div>
+    <div className="filter-row"><label className="filter-label" htmlFor="category-filter">INTEREST</label><select id="category-filter" value={category} onChange={e => setCategory(e.target.value)}><option value="all">Everything</option><option value="music">Music & nights out</option><option value="family">Family & kids</option><option value="arts">Arts & creativity</option><option value="markets">Markets & fairs</option><option value="community">Community</option></select><span className="event-count" aria-live="polite">{entries.length} {entries.length === 1 ? "listing" : "listings"}</span></div>
     <div className="event-list" id="event-list">
-      {entries.length === 0 && <div className="empty-state"><h3>Nothing listed here just yet.</h3><p>Try a wider date range, another community or a different interest. Events are continually being collected from around the valley.</p><button type="button" onClick={reset}>Reset event filters</button></div>}
+      {entries.length === 0 && <div className="empty-state"><h3>Nothing listed here just yet.</h3><p>Try a wider date range or another interest. GFW events are added as they are verified.</p><button type="button" onClick={reset}>Reset event filters</button></div>}
       {entries.map(e => {
         const isNew = e.date !== prev;
         prev = e.date;

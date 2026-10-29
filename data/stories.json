@@ -1,0 +1,74 @@
+{
+  "editionDate": "2026-10-28",
+  "editionTitle": "Wednesday, October 28, 2026",
+  "lastReviewed": "2026-10-28",
+  "stories": [
+    {
+      "id": "STORY-01",
+      "date": "2026-10-16",
+      "updated": "2026-10-28",
+      "topic": "Housing & planning",
+      "importance": "October 28 deadline",
+      "title": "Scott Avenue housing proposal: public comments close today",
+      "summary": "The Town is seeking feedback on a potential multiunit residential development on vacant land between Mill Road and Carmelite Road. The published design is illustrative; no final project approval is established.",
+      "why": "This is a real chance to shape how existing serviced land becomes homes, while weighing neighbourhood character, access and long-term infrastructure costs.",
+      "source": "Town of Grand Falls-Windsor",
+      "sourceUrl": "https://grandfallswindsor.com/discretionary-use-application-scott-avenue/",
+      "deadline": "October 28",
+      "readTime": "2 min"
+    },
+    {
+      "id": "STORY-02",
+      "date": "2026-10-26",
+      "updated": "2026-10-28",
+      "topic": "Community & culture",
+      "importance": "Starts tomorrow",
+      "title": "Red Maple Festival brings a full week of events to town",
+      "summary": "From October 29 through November 5, the Town’s festival brings together recreation, family activities, local arts, 50+ clubs, movies and a community bonfire across multiple venues.",
+      "why": "It is a practical example of GFW’s strength as a gathering place. Attendance and visitor spending are still unknown, but the programming spans generations and neighbourhoods.",
+      "source": "Town of Grand Falls-Windsor",
+      "sourceUrl": "https://grandfallswindsor.com/red-maple-festival-2026/",
+      "readTime": "2 min"
+    },
+    {
+      "id": "STORY-03",
+      "date": "2026-10-22",
+      "updated": "2026-10-28",
+      "topic": "Roads & infrastructure",
+      "importance": "Watch next",
+      "title": "First Central NL highway-twinning construction tender is out",
+      "summary": "The Province issued a tender for 6.2 kilometres of subgrade work between the current divided highway near GFW and the Bishop’s Falls railway overpass. No contractor award has been established.",
+      "why": "Separately tendered contracts may offer regional contractors a more accessible route into major infrastructure work. The actual local capture will depend on bids, awards and subcontracting.",
+      "source": "Government of Newfoundland and Labrador",
+      "sourceUrl": "https://www.gov.nl.ca/releases/2026/ti/1022n02/",
+      "readTime": "3 min"
+    },
+    {
+      "id": "STORY-04",
+      "date": "2026-10-02",
+      "updated": "2026-10-28",
+      "topic": "Roads & infrastructure",
+      "importance": "Through October 30",
+      "title": "Circular Road Phase II work continues",
+      "summary": "Watermain, storm sewer and road improvements between High Street and East Street may bring temporary service changes, detours and delays while work continues to approximately October 30.",
+      "why": "Keeping established streets and underground infrastructure reliable is as important to everyday livability as adding new subdivisions.",
+      "source": "Town of Grand Falls-Windsor",
+      "sourceUrl": "https://grandfallswindsor.com/construction-notice-july-13-october-30-2026/",
+      "readTime": "1 min"
+    },
+    {
+      "id": "STORY-05",
+      "date": "2026-10-22",
+      "updated": "2026-10-28",
+      "topic": "Housing & planning",
+      "importance": "November 16 deadline",
+      "title": "Lincoln Road residential land proposal heads toward public hearing",
+      "summary": "Council has adopted proposed amendments to redesignate recreation open space off Lincoln Road for low- and medium-density residential use. Written representations are due November 16 ahead of a November 18 public hearing.",
+      "why": "The town needs housing, but also connected public spaces. The important test is whether residential development can preserve or improve active-transportation links.",
+      "source": "Town of Grand Falls-Windsor",
+      "sourceUrl": "https://grandfallswindsor.com/notice-of-public-hearing-12/",
+      "deadline": "November 16",
+      "readTime": "2 min"
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "edition": "2026-10-28",
+  "editorialNote": "Argument-led, source-linked civic essays. Each piece has a discernible interpretation, documents its evidence, and is revised when new findings genuinely change the story. Not a daily opinion feed.",
+  "posts": [
+    {
+      "slug": "two-towns-one-future",
+      "category": "Identity & history",
+      "eyebrow": "01 / A PLACE WITH TWO ORIGINS",
+      "title": "Grand Falls was designed. Windsor was made.",
+      "dek": "The railway tracks once divided more than two neighbourhoods. They separated a planned company town from the people building a life beyond its permission—and left GFW two very different kinds of inheritance.",
+      "featured": true,
+      "graphic": "heritage",
+      "date": "2026-10-28",
+      "updated": "2026-10-28",
+      "readTime": 5,
+      "status": "Working interpretation",
+      "cardText": "The planned company town and the independent streets beyond its tracks tell a harder, richer story about belonging.",
+      "thesis": "The most useful thing about GFW’s two histories is not that they fit neatly together. It is that one tradition organized a town from above while another learned to build one from below. A future worth having needs both—and must remember who paid for the difference.",
+      "facts": [
+        {
+          "label": "1909",
+          "detail": "Grand Falls mill began producing newsprint."
+        },
+        {
+          "label": "1938",
+          "detail": "Windsor secured municipal incorporation."
+        },
+        {
+          "label": "1991",
+          "detail": "The towns amalgamated."
+        },
+        {
+          "label": "2009",
+          "detail": "The paper mill closed."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "The railway tracks were also a boundary",
+          "body": [
+            "The neatest version of Grand Falls-Windsor history begins with two neighbouring communities, each with its own character, finally joining in 1991. It is a useful chronology. It is also too tidy. The boundary between Grand Falls and what became Windsor was not simply a difference in architecture or commercial taste. For years, the company that built Grand Falls controlled who could live there. Mill employment—or permission from the company—was effectively a passport to the planned town.",
+            "On one side, the Anglo-Newfoundland Development Company supplied houses, services, recreation, schools and an ordered civic landscape. The Garden City influence is still readable in the town’s streets and institutional buildings. On the other side of the railway, people who did not qualify for the company town settled around Grand Falls Station. This was not a quaint exercise in entrepreneurial preference. It was in part a response to exclusion. Accounts of the Station’s early years describe inadequate sanitation and municipal services. The contrast matters: Grand Falls enjoyed the benefits of planning partly because the same system could restrict access to them."
+          ]
+        },
+        {
+          "heading": "Windsor built something the company could not design",
+          "body": [
+            "The Station grew into Windsor, incorporated in 1938. Main Street developed a commercial life of its own. A 1944 photograph in the Grand Falls-Windsor Heritage Society collection shows the Brown Derby, King Edward Theatre, S. Cohen & Sons and Purity Cafe along the same commercial stretch. Those names turn an abstract phrase such as “merchant tradition” into a street where people bought groceries, found entertainment and encountered neighbours.",
+            "A Heritage NL oral-history exhibition records merchants and families with roots in places including Lebanon, Syria, China and Europe. Its recollections describe an animated, multilingual business district rather than a merely secondary shopping area for the mill town. That is an important part of the story because a place can be commercially productive before it is politically or socially prestigious. The ability to open a business, build a congregation, organize a club and make a living without company sponsorship was an independent civic achievement.",
+            "It is easy to romanticize this as plucky Windsor versus comfortable Grand Falls. That would make the same mistake in reverse. A lively Main Street did not erase poor roads, unequal opportunity or insecurity. And Grand Falls was home to genuine cultural achievement, athletics and community building, not simply corporate paternalism. What the two histories expose is a tension still relevant today: stability supplied by a powerful institution can create extraordinary amenities, but it can also narrow who gets to decide how a place grows."
+          ]
+        },
+        {
+          "heading": "The mill ended. Its organizing logic did not disappear overnight",
+          "body": [
+            "When the mill closed in 2009, GFW lost much more than an employer. It lost the institution around which a century of economic expectations had formed. The temptation since then has been to ask what major project could replace it. That question is understandable, but it may be the wrong inheritance to preserve. A modern economy is unlikely to arrive with a single organization prepared to provide a town’s jobs, social calendar, streetscape and confidence all at once.",
+            "The more promising inheritance is twofold: Grand Falls’ belief that public life deserves deliberate investment, and Windsor’s demonstration that people outside an established system can create institutions themselves. The town’s 2024 acquisition of former mill lands makes this more than a historical metaphor. Land once tied to a dominant industrial enterprise is now part of the Town’s long-term decisions about public access, development and movement. Who shapes it next is a civic question, not only a real-estate question."
+          ]
+        },
+        {
+          "heading": "A shared name is not yet a shared account of the place",
+          "body": [
+            "The story GFW tells about itself should make room for the laid-out streets and public buildings of Grand Falls, for the merchants and immigrant families who made Windsor’s Main Street, and for the generations whose lives are not defined by the mill at all. That does not mean issuing a more inclusive slogan. It means taking the local historical record seriously enough to show its conflicts, its people and its unfinished work.",
+            "A town that describes Windsor only as “entrepreneurial” and Grand Falls only as “planned” misses the social conditions that produced both. A town that remembers only the mill risks treating everything since 2009 as an epilogue. GFW’s next identity may emerge less from finding a replacement industrial hero than from deciding whose efforts count as town-building in the first place."
+          ]
+        }
+      ],
+      "known": [
+        "The company once restricted residence in Grand Falls to workers and those with permission.",
+        "Windsor grew around the station, incorporated in 1938, and amalgamated with Grand Falls in 1991.",
+        "Heritage Society and Heritage NL exhibits document immigrant-owned businesses on Windsor’s Main Street."
+      ],
+      "inference": [
+        "Today’s challenge is to combine deliberate public investment with a wider culture of independent initiative, rather than wait for a single institution to organize the town."
+      ],
+      "questions": [
+        "Whose histories are missing from the Town’s most visible heritage interpretation?",
+        "What would the former mill lands become if community access and local initiative were treated as primary design criteria?",
+        "How do younger residents and newcomers understand the Grand Falls/Windsor distinction?"
+      ],
+      "sources": [
+        {
+          "label": "Newfoundland and Labrador Heritage — Company Towns",
+          "url": "https://www.heritage.nf.ca/articles/society/company-towns.php"
+        },
+        {
+          "label": "Heritage NL / Grand Falls-Windsor Heritage Society — Merchants of Main Street",
+          "url": "https://www.communitystories.ca/v2/main-street-merchants-windsor_marchands-a-windsor/"
+        },
+        {
+          "label": "Government of NL — Windsor incorporation anniversary",
+          "url": "https://www.releases.gov.nl.ca/releases/2013/ma/0909n02.htm"
+        },
+        {
+          "label": "Town of GFW — Former mill lands transferred to the Town",
+          "url": "https://grandfallswindsor.com/former-mill-lands-transferred-to-town-of-grand-falls-windsor/"
+        }
+      ],
+      "related": [
+        "gathering-place",
+        "river-as-civic-spine"
+      ],
+      "log": [
+        {
+          "date": "2026-10-28",
+          "note": "Major editorial revision: replaced procedural summaries with a more specific, argument-led essay; added historical or operational detail and primary sources. Claims remain open to correction."
+        },
+        {
+          "date": "2026-10-28",
+          "note": "Initial synthesis from heritage research; resident voices and cross-neighbourhood evidence remain to be collected."
+        }
+      ]
+    },
+    {
+      "slug": "housing-proposals-to-homes",
+      "category": "Housing & neighbourhoods",
+      "eyebrow": "02 / THE HOUSING QUESTION",
+      "title": "Before a new home, there is a pipe.",
+      "dek": "The exciting part of a housing announcement is a coloured planning map. The expensive part may be underground—and paid for long after the announcement is forgotten.",
+      "featured": true,
+      "graphic": "housing",
+      "date": "2026-10-28",
+      "updated": "2026-10-28",
+      "readTime": 4,
+      "status": "Active civic watch",
+      "cardText": "Why rezoning, aging watermains and public rights of way belong in the same housing argument.",
+      "thesis": "The housing debate is not simply about how much land GFW can open up. It is about whether each new home strengthens a town whose older streets, pipes and connections also need attention.",
+      "facts": [
+        {
+          "label": "109A",
+          "detail": "Lincoln Road high-density proposal."
+        },
+        {
+          "label": "Scott",
+          "detail": "A separate potential multi-unit site."
+        },
+        {
+          "label": "Nov 18",
+          "detail": "Public hearing on other Lincoln Road land."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "A planning notice makes the future look closer than it is",
+          "body": [
+            "A parcel appears on a map. Its designation changes colour. Sometimes there is an illustration of apartment buildings, a unit count or an invitation to comment. It is a powerful visual shortcut: an empty lot suddenly looks like a neighbourhood. But a zoning change does not finance a building, connect a sewer, hire a contractor or put anyone’s name on a lease.",
+            "Consider the different housing conversations unfolding in GFW. At 109A Lincoln Road, the former Club 63 site, the Town proposed high-density residential zoning. In October 2026, it invited interest in multi-unit housing on a separate Scott Avenue parcel between Mill Road and Carmelite Road; the accompanying design was one possible concept, not a completed development. Still another process involves changing recreational open space off Lincoln Road to low- and medium-density residential use, with a public hearing scheduled for November 18. These are different sites and different stages. Counting them as if they were already occupied units would turn aspiration into arithmetic."
+          ]
+        },
+        {
+          "heading": "The buried part of the housing story",
+          "body": [
+            "The decisive questions often have no rendering. Is there adequate water pressure? Can the sewer system carry the demand? What must happen to stormwater? Does a new street create decades of maintenance obligations? Who pays when those answers require new infrastructure?",
+            "GFW has already acknowledged recurring water-quality and distribution problems in parts of town. Those problems make housing a question about stewardship as much as supply. It is entirely possible to approve attractive new homes while the residents of an older street are still living with repeated service interruptions. Any honest account of growth has to hold both facts in view. The tax base matters, but so does the future bill for roads, pipes, snow-clearing and repairs."
+          ]
+        },
+        {
+          "heading": "A house can improve a town without consuming more of it",
+          "body": [
+            "Compact housing on already serviced land can put residents closer to shops, services and one another. That offers a plausible gain to local businesses and municipal efficiency, provided infrastructure capacity and actual demand support it. Not every dense proposal is automatically good, though, and not every peripheral development is automatically wasteful. The right comparison is between real options and their total costs, not labels on a zoning map.",
+            "Land can have more than one legitimate future. The separate Lincoln Road hearing concerns recreation open space. Elsewhere the Town has explicitly recognized walking and ATV use of the Mill Stretch corridor. These facts do not prove any proposed housing blocks that route; the parcels and rights of way need to be mapped first. But they show why the public realm cannot be treated as leftover land. A neighbourhood is defined partly by the places residents can reach without getting into a vehicle."
+          ]
+        },
+        {
+          "heading": "The housing number that matters comes last",
+          "body": [
+            "For each project, the useful civic ledger is straightforward: proposed homes, permissions secured, servicing required, financing established, construction started, units occupied and long-term municipal costs. If affordability is promised, define what it means and for whom. If a corridor is retained, put it on the map. If the infrastructure burden is offset, show by what mechanism.",
+            "The Town should be able to celebrate new construction without pretending that approval is completion. More importantly, residents should be able to see whether the next development makes the place easier to live in—or simply makes its maintenance responsibilities larger. A housing strategy that answers only “How many units?” is answering the easy half of the question."
+          ]
+        }
+      ],
+      "known": [
+        "The Town has pursued distinct planning processes at 109A Lincoln Road, Scott Avenue, and another Lincoln Road parcel.",
+        "The Town has publicly acknowledged water-quality and distribution problems in some neighbourhoods.",
+        "The Town has identified existing pedestrian and ATV use of the Mill Stretch."
+      ],
+      "inference": [
+        "Housing delivered on sustainably serviced sites, with useful public connections, is likely more valuable than an equivalent number of unbuilt or infrastructure-intensive proposals."
+      ],
+      "questions": [
+        "Which housing sites have funded servicing plans and firm construction schedules?",
+        "How many completed homes—not proposed units—result from each planning process?",
+        "Which pedestrian and recreation routes are legally and practically protected?"
+      ],
+      "sources": [
+        {
+          "label": "Town — 109A Lincoln Road notice",
+          "url": "https://grandfallswindsor.com/notice-of-proposed-change-8/"
+        },
+        {
+          "label": "Town — Scott Avenue discretionary-use consultation",
+          "url": "https://grandfallswindsor.com/discretionary-use-application-scott-avenue/"
+        },
+        {
+          "label": "Town — separate Lincoln Road public hearing",
+          "url": "https://grandfallswindsor.com/notice-of-public-hearing-12/"
+        },
+        {
+          "label": "Town — Council statement on water quality and distribution",
+          "url": "https://grandfallswindsor.com/council-statement-water-quality-and-distribution/"
+        },
+        {
+          "label": "Town — Mill Stretch public access notice",
+          "url": "https://grandfallswindsor.com/public-notice-goodyears-dam-project/"
+        }
+      ],
+      "related": [
+        "river-as-civic-spine",
+        "two-towns-one-future"
+      ],
+      "log": [
+        {
+          "date": "2026-10-28",
+          "note": "Major editorial revision: replaced procedural summaries with a more specific, argument-led essay; added historical or operational detail and primary sources. Claims remain open to correction."
+        },
+        {
+          "date": "2026-10-28",
+          "note": "Separated the three planning processes and added public-hearing and permit-stage tests."
+        }
+      ]
+    },
+    {
+      "slug": "regional-work-local-livelihoods",
+      "category": "Economy & opportunity",
+      "eyebrow": "03 / FOLLOWING THE MONEY",
+      "title": "The next mill probably will not be a mill.",
+      "dek": "GFW may build a stronger economy by becoming indispensable to other people’s projects than by waiting for one project big enough to define the town.",
+      "featured": true,
+      "graphic": "economy",
+      "date": "2026-10-28",
+      "updated": "2026-10-28",
+      "readTime": 4,
+      "status": "Procurement watch",
+      "cardText": "An advanced assay lab and a highway tender offer clues about the jobs that might endure after construction ends.",
+      "thesis": "The enduring opportunity for GFW is not to win every industrial megaproject. It is to become the place the region repeatedly turns to for specialized work, talent and services—across several projects and business cycles.",
+      "facts": [
+        {
+          "label": "5 years",
+          "detail": "MSALABS’ announced Valentine services contract."
+        },
+        {
+          "label": "6.2 km",
+          "detail": "The first central TCH twinning tender."
+        },
+        {
+          "label": "Unknown",
+          "detail": "Local subcontracting share."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "The old mill made it easy to see the economy",
+          "body": [
+            "A mill has gates, a whistle, a payroll and a physical presence large enough to organize a town’s sense of itself. A service economy is harder to photograph. Its value is spread through workshops, laboratories, survey crews, trucking yards, classrooms, offices and businesses that may look ordinary from the street. That makes it easy to underestimate—or to miss the difference between a burst of construction spending and a lasting capability.",
+            "After 2009, the natural question was what could replace the paper mill. Perhaps the better question is what no single mill can provide: several independent sources of work that make the next downturn less devastating. That does not imply abandoning manufacturing or resource extraction. It means refusing to make one company responsible for the town’s confidence."
+          ]
+        },
+        {
+          "heading": "An assay laboratory is a more interesting clue than a ribbon cutting",
+          "body": [
+            "MSALABS has described its Grand Falls-Windsor laboratory as part of an expanding regional mining-services network. Its announced Valentine Gold contract runs for five years, and the company has publicly associated the facility with about 40 new local positions. The technical capability matters more than the headline number: samples can come from several exploration or mining projects, the expertise can deepen over time, and the service need not disappear when one construction site winds down.",
+            "There is a caveat worth keeping. MSALABS is an international company; a job based in GFW is not the same thing as a locally owned business retaining its profits in town. Both forms of benefit count, but they count differently. Wages, training, supplier purchases, repeat contracts and local ownership are separate measures. The most revealing lesson from the laboratory may be how the town attracted or supported a specialized facility capable of serving multiple customers—not a claim that every missing industrial service should be invented next."
+          ]
+        },
+        {
+          "heading": "A road contract is another kind of experiment",
+          "body": [
+            "On October 22, the province tendered the first 6.2 kilometres of subgrade work for the Trans-Canada Highway twinning between Grand Falls-Windsor and Bishop’s Falls. The government said its phased procurement approach would make participation easier for local contractors. This is a testable claim. Who is eligible? Who submits bids? Who wins? Which surveyors, equipment operators, suppliers and subcontractors get repeat business?",
+            "A large public investment can improve safety and transportation while leaving surprisingly little long-term supplier capacity behind. Equally, a contractor from outside the town may hire local workers and purchase locally. Award geography is a clue, not a verdict. The interesting figure is not the headline program budget—which also covers Avalon work—but the share that develops durable local expertise and firms."
+          ]
+        },
+        {
+          "heading": "Build a platform, not a monument",
+          "body": [
+            "This suggests a more practical economic-development strategy than chasing the next iconic employer. Find the services that multiple projects need. Identify local firms already doing the work. Confirm specific bottlenecks—certification, equipment, working capital, site requirements, recruitment—before announcing a program to solve them. Then help remove one proven obstacle at a time.",
+            "The vision is less cinematic than another smokestack, but it may be sturdier: more technicians who can move between industries, more businesses with customers beyond town limits, more local young people who can imagine skilled careers without leaving. If GFW becomes a place where regional projects find competent people and recurring services, the economic centre of gravity can shift here without waiting for a single company to give the town its name."
+          ]
+        }
+      ],
+      "known": [
+        "MSALABS publicly describes a Grand Falls-Windsor laboratory supporting Valentine and the broader regional mining industry.",
+        "The company has announced approximately 40 new local positions associated with its GFW facility.",
+        "The province issued an initial 6.2-kilometre highway-twinning tender on October 22, 2026."
+      ],
+      "inference": [
+        "Several cross-project specialist service providers could diversify local employment more durably than relying on a single flagship project."
+      ],
+      "questions": [
+        "How much of regional mining, construction and maintenance spending reaches GFW payrolls and businesses?",
+        "Which adjacent specialist services lack capacity, based on verified contracts or buyer requirements?",
+        "What has to be true for young workers to build long-term careers in those services?"
+      ],
+      "sources": [
+        {
+          "label": "MSALABS — GFW laboratory and local jobs",
+          "url": "https://www.linkedin.com/posts/msalabs_move-over-pulp-and-paper-mining-is-making-activity-7463520713233252352--lyl"
+        },
+        {
+          "label": "Province — First central highway-twinning tender",
+          "url": "https://www.gov.nl.ca/releases/2026/ti/1022n02/"
+        },
+        {
+          "label": "Province — Traditional, phased procurement approach",
+          "url": "https://www.gov.nl.ca/releases/2025/ti/1218n02/"
+        },
+        {
+          "label": "NL Heritage — Company towns and their economic dependency",
+          "url": "https://www.heritage.nf.ca/articles/society/company-towns.php"
+        }
+      ],
+      "related": [
+        "housing-proposals-to-homes",
+        "gathering-place"
+      ],
+      "log": [
+        {
+          "date": "2026-10-28",
+          "note": "Major editorial revision: replaced procedural summaries with a more specific, argument-led essay; added historical or operational detail and primary sources. Claims remain open to correction."
+        },
+        {
+          "date": "2026-10-28",
+          "note": "Grounded the case in the existing MSALABS contract and a live tender; no unverified supplier gap was promoted."
+        }
+      ]
+    },
+    {
+      "slug": "gathering-place",
+      "category": "Culture & belonging",
+      "eyebrow": "04 / THE COMMUNITY WE MAKE",
+      "title": "There is plenty to do here. Why is it so hard to see?",
+      "dek": "The valley may not have a shortage of community life. It may have a shortage of common places where that life becomes visible beyond the circles already taking part.",
+      "featured": false,
+      "graphic": "culture",
+      "date": "2026-10-28",
+      "updated": "2026-10-28",
+      "readTime": 4,
+      "status": "Hypothesis under test",
+      "cardText": "A packed festival schedule raises a larger question: who can actually discover, join and feel part of local life?",
+      "thesis": "GFW’s gathering-place potential depends less on manufacturing more events than on making an already active network legible and welcoming to people outside its usual circles.",
+      "facts": [
+        {
+          "label": "Oct 29",
+          "detail": "Red Maple Festival begins."
+        },
+        {
+          "label": "Nov 5",
+          "detail": "Festival program concludes."
+        },
+        {
+          "label": "Many",
+          "detail": "Organizers and venues participate."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "A town can be busy and still feel quiet",
+          "body": [
+            "Look at the Red Maple Festival schedule for October 29 to November 5. There is carpet bowling at a seniors’ club, a family open house, free skating and swims, a kitchen party, games on Bond Street, a pop-up gallery at the Hive, a gathering at Sanger Park and a community bonfire. These are not all the work of one entertainment promoter. They involve clubs, volunteers, recreation facilities, small businesses and public institutions. On paper, at least, the town’s social infrastructure is alive.",
+            "And yet there is a familiar contradiction in small-town life: one person can be overwhelmed by invitations while another believes nothing ever happens. The contradiction is not necessarily in the number of events. It may be in how they travel. News moves through family connections, school notices, club memberships, storefront posters and social-media groups. Those systems work extremely well for people already inside the network. They are much less reliable for a newcomer, a shift worker, a teenager whose friends moved away or a parent without time to search several feeds."
+          ]
+        },
+        {
+          "heading": "The invisible cost of not knowing",
+          "body": [
+            "When information is scattered, every organizer has to promote from scratch and every resident has to rediscover where to look. A free program can remain practically inaccessible if the people who would enjoy it never hear about it. The lost opportunity is not only ticket revenue. It is a child who does not find a club, a volunteer who never finds a cause, or a resident who goes another weekend without a reason to be in a shared place.",
+            "This is why a reliable regional events registry is more than a directory. It is a modest piece of civic infrastructure. It can make a public invitation visible to people who are not already friends with the organizer. The useful geography also extends beyond municipal boundaries: Bishop’s Falls, Botwood and Norris Arm are part of the same everyday network of trips, families, sports and outings. An events page that pretends the town line is the limit of local life would misunderstand the valley."
+          ]
+        },
+        {
+          "heading": "Gathering is different from entertainment",
+          "body": [
+            "A busy event calendar does not prove a town is cohesive. Attendance can remain concentrated among familiar faces. A festival can be successful for existing participants without becoming an entry point for anyone new. Equally, a small, recurring club may do more to build friendship than one large annual spectacle. The two outcomes should not be confused.",
+            "The real test of a gathering place is whether people cross lines they normally do not: generations, neighbourhoods, interests and nearby communities. That cannot be inferred from an event poster. It is visible in repeated attendance, a newcomer returning the next week, a young person becoming a volunteer, or a family starting to regard a public venue as somewhere they belong."
+          ]
+        },
+        {
+          "heading": "What would change the feeling of town?",
+          "body": [
+            "A compelling ambition for GFW is to reduce the distance between wanting to participate and knowing how. One complete, readable calendar is a start. So are dependable recurring activities, clear costs and accessibility details, accurate updates when plans change, and a simple way for small volunteer groups to be seen beside larger institutions.",
+            "That will not replace good venues, public space or volunteers. It will make their work easier to discover. And it may change a perception that matters: instead of asking whether enough is happening in GFW, more residents might be able to ask which part of it they want to join."
+          ]
+        }
+      ],
+      "known": [
+        "The October 2026 Red Maple Festival schedule lists multiple clubs, venues, free activities and age groups.",
+        "Regional organizations and small organizers use different channels to publicize activities."
+      ],
+      "inference": [
+        "A shared, reliable source of event information can help newcomers and residents discover activity beyond their existing networks; it will not by itself guarantee inclusion."
+      ],
+      "questions": [
+        "Which organizers and nearby communities are not yet represented in the public calendar?",
+        "Do first-time attendees actually discover events through an independent shared listing?",
+        "Which accessible, recurring gatherings help people build lasting relationships?"
+      ],
+      "sources": [
+        {
+          "label": "Town — Red Maple Festival 2026 programme",
+          "url": "https://grandfallswindsor.com/red-maple-festival-2026/"
+        },
+        {
+          "label": "Town — Recreation programmes across age groups",
+          "url": "https://grandfallswindsor.com/"
+        },
+        {
+          "label": "Town — Proposed community centre and regional gatherings",
+          "url": "https://grandfallswindsor.com/community-center/"
+        }
+      ],
+      "related": [
+        "two-towns-one-future",
+        "river-as-civic-spine"
+      ],
+      "log": [
+        {
+          "date": "2026-10-28",
+          "note": "Major editorial revision: replaced procedural summaries with a more specific, argument-led essay; added historical or operational detail and primary sources. Claims remain open to correction."
+        },
+        {
+          "date": "2026-10-28",
+          "note": "Festival programming added as evidence of coordination; participation and visitor benefits remain unmeasured."
+        }
+      ]
+    },
+    {
+      "slug": "river-as-civic-spine",
+      "category": "Place & public realm",
+      "eyebrow": "05 / THE LAND BETWEEN US",
+      "title": "The river made Grand Falls. Who gets to use it now?",
+      "dek": "The Exploits helped create an industrial town. Its next civic role may be decided less by spectacular new attractions than by the ordinary question of who can reach it.",
+      "featured": false,
+      "graphic": "river",
+      "date": "2026-10-28",
+      "updated": "2026-10-28",
+      "readTime": 4,
+      "status": "Spatial hypothesis",
+      "cardText": "Former mill land, the Mill Stretch and river parks make access—not just scenery—the important story.",
+      "thesis": "The Exploits River should be understood as a public-access question, not merely a tourism backdrop. The meaningful measure is how many residents can reach its landscapes and links safely, routinely and without expensive new obligations.",
+      "facts": [
+        {
+          "label": "Exploits",
+          "detail": "The region’s defining river."
+        },
+        {
+          "label": "1909",
+          "detail": "Newsprint production tied to river power."
+        },
+        {
+          "label": "Open",
+          "detail": "Corridor connectivity question."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "The river was an engine before it was a view",
+          "body": [
+            "Grand Falls exists where it does in large part because the Exploits offered timber, water power and the industrial geography a paper mill needed. The river was not incidental decoration. It helped determine the settlement, its workforce and its economic purpose. The planned town grew beside a productive landscape whose value was measured in what it could make.",
+            "Today the river is described differently: salmon, trails, waterfalls, Gorge Park, scenery and wildlife. That change is not superficial. It reflects a different relationship between land and town. An industrial river makes power and products. A civic river gives people somewhere to walk, meet, fish, pause and understand where they live. The question is whether that second relationship is as accessible in daily life as it is in visitor brochures."
+          ]
+        },
+        {
+          "heading": "Public ownership creates a decision, not an outcome",
+          "body": [
+            "The Town announced in 2024 that former mill lands had been transferred to municipal ownership. Its plans pointed to possible road access toward downtown, an ATV route and links with nearby heritage and recreational destinations. This is a remarkable reversal of civic geography. Land once tied to the enterprise that shaped the town has become a possible public asset.",
+            "But ownership by itself creates no walkable connection. A path still needs a legal route, safe crossings, maintenance, winter realities and an answer to conflicts between walking, cycling, ATVs and road traffic. The Town’s 2026 notice about work near Goodyear’s Dam specifically recognized both pedestrian and ATV use of the Mill Access Road, the “Mill Stretch.” That use is real enough to require protection during construction. Whether it can be connected well to other destinations is a question requiring proper mapping, not a dramatic rendering."
+          ]
+        },
+        {
+          "heading": "A map can tell a more honest story than a master plan",
+          "body": [
+            "GFW already has pieces of a river experience. Gorge Park offers access to the river landscape. The Salmonid Interpretation Centre tells part of the ecological story. There are trails and public viewpoints, but they do not automatically add up to an easy-to-understand route. Existing approaches can be steep or inaccessible in places; the provincial water-quality monitoring information, for example, describes a rocky, steep approach to one sampling point near the long-term care centre. A destination on a map is not necessarily a destination everyone can comfortably reach.",
+            "A modest first step would be to publish a verified walking-and-access map: entrances, distances, crossings, gradients, accessible paths, amenities and the places where a route actually ends. That might identify one missing link worth fixing. It might also reveal that the best investment is maintenance, signage or a safer crossing rather than a signature new attraction."
+          ]
+        },
+        {
+          "heading": "The useful inheritance is access",
+          "body": [
+            "The river should not be asked to solve every economic or identity problem. Nor should housing proposals near open space automatically be portrayed as threats to an established corridor; boundaries, land rights and routes have to be checked. But it is reasonable to insist that growth plans treat public connections as real assets, not leftover strips of land waiting for a better use.",
+            "Grand Falls was shaped by a river that supplied the industry organizing the town. Its next chapter could be shaped by residents who can actually approach that river and move through its landscape. The ambition need not start with a suspension bridge. It can start with something less photogenic and more revealing: a public path that goes somewhere, is safe to use and stays open."
+          ]
+        }
+      ],
+      "known": [
+        "The river’s water and timber resources were central to the establishment of the paper-mill town.",
+        "The Town announced the transfer of former mill lands in 2024.",
+        "The Town has acknowledged pedestrian and ATV use of Mill Access Road during 2026 dam work."
+      ],
+      "inference": [
+        "A connected, maintained river-access network could strengthen the town’s shared geography and everyday livability more reliably than isolated landmark projects."
+      ],
+      "questions": [
+        "Which pieces of river access are legally public and accessible throughout the year?",
+        "Where do existing trails and public destinations actually connect—and where do they stop?",
+        "Which low-cost, maintainable improvements would produce the greatest increase in usable access?"
+      ],
+      "sources": [
+        {
+          "label": "Town — Former mill lands transferred to the municipality",
+          "url": "https://grandfallswindsor.com/former-mill-lands-transferred-to-town-of-grand-falls-windsor/"
+        },
+        {
+          "label": "Town — Mill Stretch pedestrian and ATV access",
+          "url": "https://grandfallswindsor.com/public-notice-goodyears-dam-project/"
+        },
+        {
+          "label": "Town — Visitor attractions and river access",
+          "url": "https://grandfallswindsor.com/visitor/"
+        },
+        {
+          "label": "Provincial water-quality station — access and terrain near Grand Falls",
+          "url": "https://www.canal.gov.nl.ca/root/main/station_details_e.asp?envirodat=NF02YO0001"
+        },
+        {
+          "label": "Town — Lincoln Road public-hearing notice",
+          "url": "https://grandfallswindsor.com/notice-of-public-hearing-12/"
+        }
+      ],
+      "related": [
+        "two-towns-one-future",
+        "housing-proposals-to-homes"
+      ],
+      "log": [
+        {
+          "date": "2026-10-28",
+          "note": "Major editorial revision: replaced procedural summaries with a more specific, argument-led essay; added historical or operational detail and primary sources. Claims remain open to correction."
+        },
+        {
+          "date": "2026-10-28",
+          "note": "Framed the corridor as a testable public-realm hypothesis, not an approved development plan."
+        }
+      ]
+    }
+  ]
+}

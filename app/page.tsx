@@ -33,11 +33,15 @@ export default function Page() {
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Harmsworth_Hall_2.jpg/1280px-Harmsworth_Hall_2.jpg" alt="Harmsworth Hall, the brick town hall on High Street in Grand Falls-Windsor" width="1280" height="683" loading="eager"/>
           <figcaption><strong>Harmsworth Hall</strong><small>HIGH STREET · GRAND FALLS-WINDSOR · PHOTO 2016</small></figcaption>
         </figure>
-        <div className="aside-copy"><div className="aside-top"><span className="label-gold">THE LOCAL PULSE</span></div>
-        <div className="pulse-rule"></div>
-        <div className="pulse-item"><span className="pulse-index">01</span><div><b>Scott Avenue</b><p>Feedback deadline: October 28.</p></div></div>
-        <div className="pulse-item"><span className="pulse-index">02</span><div><b>Red Maple Festival</b><p>Community celebrations begin tomorrow.</p></div></div>
-        <div className="pulse-item"><span className="pulse-index">03</span><div><b>Halloween week</b><p>Music, movies, family events and more across GFW.</p></div></div>
+        <div className="aside-copy"><div className="aside-top"><span className="label-gold">LATEST STORIES</span></div>
+          <div className="pulse-rule"></div>
+          {storiesData.stories
+            .filter((story) => !("expiresOn" in story) || String(story.expiresOn) >= today)
+            .sort((a, b) => (b.updated ?? b.date).localeCompare(a.updated ?? a.date))
+            .slice(0, 3)
+            .map((story) => <a href={`#${story.id}`} className="pulse-item" key={story.id}>
+              <span className="pulse-index" aria-hidden="true">↗</span><div><b>{story.title}</b></div>
+            </a>)}
         </div>
       </aside>
     </div></section>

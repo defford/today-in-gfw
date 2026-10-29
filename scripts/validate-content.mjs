@@ -73,6 +73,24 @@ for (const path of publicPaths) {
   const content = readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
   check(!outsideTown.test(content), `${path}: references a town outside Grand Falls-Windsor`);
 }
+// Present-day public-facing copy must never split Grand Falls-Windsor into two place names.
+// The historical essay is deliberately exempt when it explicitly addresses pre-1991 events.
+const contemporaryPaths = [
+  'app/page.tsx', 'components/JournalNav.tsx', 'app/layout.tsx',
+  'app/credits/page.tsx', 'app/bigger-picture/page.tsx', 'data/stories.json'
+];
+const historicalPlaceName = /\bGrand Falls\b(?!-Windsor)|(?<!Grand Falls-)\bWindsor\b/i;
+for (const path of contemporaryPaths) {
+  const copy = readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
+  check(!historicalPlaceName.test(copy), `${path}: use Grand Falls-Windsor, not a separate present-day town name`);
+}
+for (const essay of posts) {
+  if (essay.slug !== 'two-towns-one-future') {
+    check(!historicalPlaceName.test(JSON.stringify(essay)), `Essay ${essay.slug}: separate-town name outside explicitly historical essay`);
+  } else {
+    check(/BEFORE THE 1991 AMALGAMATION/.test(essay.eyebrow ?? ''), 'Historical essay requires a clear pre-1991 frame');
+  }
+}
 const homepage = readFileSync(new URL('../app/page.tsx', import.meta.url), 'utf8');
 const calendar = readFileSync(new URL('../components/EventCalendar.tsx', import.meta.url), 'utf8');
 check(homepage.includes('eventsData.events.filter((event) => event.town === "Grand Falls-Windsor")'), 'Homepage must pass only GFW events to the public calendar');

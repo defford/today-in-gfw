@@ -13,9 +13,10 @@ function gfwToday() {
 export default function Page() {
   const today = gfwToday();
   const fullToday = new Intl.DateTimeFormat("en-CA", {timeZone: "UTC", weekday: "long", month: "long", day: "numeric", year: "numeric"}).format(new Date(`${today}T12:00:00Z`));
+  const editionShort = new Intl.DateTimeFormat("en-CA", {timeZone: "UTC", month: "short", day: "numeric"}).format(new Date(`${storiesData.editionDate}T12:00:00Z`));
   return <>
 
-  <div className="topline"><div className="wrap top-inner"><span className="topdot"></span><span id="topline-date">{fullToday} · Edition: Oct 28</span><span className="top-divider">/</span><span>Grand Falls-Windsor, Newfoundland & Labrador</span><span className="top-right">An independent community briefing</span></div></div>
+  <div className="topline"><div className="wrap top-inner"><span className="topdot"></span><span id="topline-date">{fullToday} · Edition: {editionShort}</span><span className="top-divider">/</span><span>Grand Falls-Windsor, Newfoundland & Labrador</span><span className="top-right">An independent community briefing</span></div></div>
   <header className="header"><div className="wrap nav">
     <a className="brand" href="#home" aria-label="Today in GFW home"><img className="brand-emblem" src="/assets/river-mark.svg" alt="" width="42" height="42"/><span className="brand-lockup"><span className="brand-word">TODAY <em>IN</em> GFW<span className="brand-period">.</span></span><span className="brand-subline">AN INDEPENDENT GFW BRIEFING</span></span></a>
     <nav className="nav-links" aria-label="Main navigation"><a href="#stories">The briefing</a><a href="#events">What's on</a><a href="/bigger-picture">The bigger picture</a><a href="#about">About</a></nav>
@@ -33,11 +34,11 @@ export default function Page() {
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Harmsworth_Hall_2.jpg/1280px-Harmsworth_Hall_2.jpg" alt="Harmsworth Hall, the brick town hall on High Street in Grand Falls-Windsor" width="1280" height="683" loading="eager"/>
           <figcaption><span className="landmark-kicker">A PLACE WE KNOW</span><strong>Harmsworth Hall</strong><small>HIGH STREET · GRAND FALLS-WINDSOR · PHOTO 2016</small></figcaption>
         </figure>
-        <div className="aside-copy"><div className="aside-top"><span className="label-gold">THE LOCAL PULSE</span><span className="issue-no">EDITION 001</span></div>
-        <div className="pulse-rule"></div><p className="aside-kicker">Edition 001 highlights</p>
-        <div className="pulse-item"><span className="pulse-index">01</span><div><b>Scott Avenue</b><p>Feedback deadline: October 28.</p></div></div>
-        <div className="pulse-item"><span className="pulse-index">02</span><div><b>Red Maple Festival</b><p>Community celebrations begin tomorrow.</p></div></div>
-        <div className="pulse-item"><span className="pulse-index">03</span><div><b>Halloween week</b><p>Music, movies, family events and more across GFW.</p></div></div>
+        <div className="aside-copy"><div className="aside-top"><span className="label-gold">THE LOCAL PULSE</span><span className="issue-no">CURRENT EDITION</span></div>
+        <div className="pulse-rule"></div><p className="aside-kicker">Dates worth knowing</p>
+        <div className="pulse-item"><span className="pulse-index">01</span><div><b>Council by-election</b><p>Nomination day: November 9. Appointments required.</p></div></div>
+        <div className="pulse-item"><span className="pulse-index">02</span><div><b>Red Maple Festival</b><p>October 29–November 5.</p></div></div>
+        <div className="pulse-item"><span className="pulse-index">03</span><div><b>Lincoln Road</b><p>Written submissions due November 16 at 4:30 p.m.</p></div></div>
         <div className="aside-foot"><span>Prepared for the community</span><span className="pulse-flower" aria-hidden="true">✳</span></div></div>
       </aside>
     </div><div className="hero-bottom"><div className="wrap hero-bottom-inner"><span>GRAND FALLS-WINDSOR</span><span className="hero-sep"></span><span>LOCAL STORIES</span><span className="hero-sep"></span><span>COMMUNITY EVENTS</span><span className="bottom-right">MADE FOR GRAND FALLS-WINDSOR <span>✳</span></span></div></div></section>
@@ -46,7 +47,7 @@ export default function Page() {
       <p><strong>One town. A shared story.</strong><br/>From our streets and parks to our local businesses and community spaces, this is Grand Falls-Windsor.</p>
       <a href="/bigger-picture">Meet the bigger picture <span aria-hidden="true">↗</span></a>
     </div></section>
-    {today === "2026-10-28" && <section className="notice-banner"><div className="wrap notice-inner"><div className="notice-tag"><span className="notice-dot"></span> TODAY'S DEADLINE</div><p><strong>Scott Avenue housing consultation closes October 28.</strong> Residents can submit written comments to the Town's Development Department.</p><a href="https://grandfallswindsor.com/discretionary-use-application-scott-avenue/" target="_blank" rel="noopener noreferrer" className="notice-link">Official notice ↗</a></div></section>}
+    {today === "2026-10-29" && <section className="notice-banner"><div className="wrap notice-inner"><div className="notice-tag"><span className="notice-dot"></span> NEXT DEADLINE</div><p><strong>Red Maple Festival decoration contest registration closes October 30 at noon.</strong> Call 709-489-0450 to enter a decorated house or business.</p><a href="https://grandfallswindsor.com/red-maple-festival-2026/" target="_blank" rel="noopener noreferrer" className="notice-link">Official schedule ↗</a></div></section>}
     <section id="stories" className="section stories-section"><div className="wrap">
       <div className="section-overline"><span>01 / THE BRIEFING</span><span>FACTS, CONTEXT, LOCAL CONSEQUENCES</span></div>
       <div className="section-title-row"><div><div className="small-eyebrow">WHAT MATTERS RIGHT NOW</div><h2>The day's <em>headlines.</em></h2></div><p>Important local stories, sourced and put into context. Not everything that happens is equally important.</p></div>

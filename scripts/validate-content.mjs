@@ -61,6 +61,23 @@ for (const e of events) {
   if (e.sourceUrl !== null) check(isSourceURL(e.sourceUrl), `Event ${e.id}: invalid source URL`);
 }
 
+
+/** Public-facing editorial copy is strictly scoped to Grand Falls-Windsor.
+ * The underlying event registry intentionally retains surrounding communities. */
+const publicPaths = [
+  'app/page.tsx', 'components/EventCalendar.tsx', 'app/bigger-picture/page.tsx',
+  'app/layout.tsx', 'app/credits/page.tsx', 'data/stories.json', 'data/perspectives.json'
+];
+const outsideTown = /Bishop['’]s Falls|Botwood|Norris Arm|Gander/i;
+for (const path of publicPaths) {
+  const content = readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
+  check(!outsideTown.test(content), `${path}: references a town outside Grand Falls-Windsor`);
+}
+const homepage = readFileSync(new URL('../app/page.tsx', import.meta.url), 'utf8');
+const calendar = readFileSync(new URL('../components/EventCalendar.tsx', import.meta.url), 'utf8');
+check(homepage.includes('eventsData.events.filter((event) => event.town === "Grand Falls-Windsor")'), 'Homepage must pass only GFW events to the public calendar');
+check(calendar.includes('events.filter(e => e.town === "Grand Falls-Windsor")'), 'Calendar must not display events outside GFW');
+
 if (errors.length) {
   console.error(`Editorial content validation failed (${errors.length}):\n` + errors.map(e => ` - ${e}`).join('\n'));
   process.exit(1);

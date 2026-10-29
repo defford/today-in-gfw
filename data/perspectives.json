@@ -1,5 +1,5 @@
 {
-  "edition": "2026-10-28",
+  "edition": "2026-10-29",
   "editorialNote": "Argument-led, source-linked civic essays. Each piece has a discernible interpretation, documents its evidence, and is revised when new findings genuinely change the story. Not a daily opinion feed.",
   "posts": [
     {
@@ -228,7 +228,7 @@
       "featured": true,
       "graphic": "economy",
       "date": "2026-10-28",
-      "updated": "2026-10-28",
+      "updated": "2026-10-29",
       "readTime": 4,
       "status": "Procurement watch",
       "cardText": "An advanced assay lab and a highway tender offer clues about the jobs that might endure after construction ends.",
@@ -265,7 +265,7 @@
         {
           "heading": "A road contract is another kind of experiment",
           "body": [
-            "On October 22, the province tendered the first 6.2 kilometres of subgrade work for the Trans-Canada Highway twinning between Grand Falls-Windsor and Bishop’s Falls. The government said its phased procurement approach would make participation easier for local contractors. This is a testable claim. Who is eligible? Who submits bids? Who wins? Which surveyors, equipment operators, suppliers and subcontractors get repeat business?",
+            "On October 22, the province tendered the first 6.2 kilometres of subgrade work on the Trans-Canada Highway near Grand Falls-Windsor. The government said its phased procurement approach would make participation easier for local contractors. This is a testable claim. Who is eligible? Who submits bids? Who wins? Which surveyors, equipment operators, suppliers and subcontractors get repeat business?",
             "A large public investment can improve safety and transportation while leaving surprisingly little long-term supplier capacity behind. Equally, a contractor from outside the town may hire local workers and purchase locally. Award geography is a clue, not a verdict. The interesting figure is not the headline program budget—which also covers Avalon work—but the share that develops durable local expertise and firms."
           ]
         },
@@ -314,6 +314,10 @@
       ],
       "log": [
         {
+          "date": "2026-10-29",
+          "note": "Narrowed the public editorial geography to Grand Falls-Windsor while preserving the GFW-specific economic implications of the highway tender."
+        },
+        {
           "date": "2026-10-28",
           "note": "Major editorial revision: replaced procedural summaries with a more specific, argument-led essay; added historical or operational detail and primary sources. Claims remain open to correction."
         },
@@ -328,11 +332,11 @@
       "category": "Culture & belonging",
       "eyebrow": "04 / THE COMMUNITY WE MAKE",
       "title": "There is plenty to do here. Why is it so hard to see?",
-      "dek": "The valley may not have a shortage of community life. It may have a shortage of common places where that life becomes visible beyond the circles already taking part.",
+      "dek": "Grand Falls-Windsor may not have a shortage of community life. It may have a shortage of common places where that life becomes visible beyond the circles already taking part.",
       "featured": false,
       "graphic": "culture",
       "date": "2026-10-28",
-      "updated": "2026-10-28",
+      "updated": "2026-10-29",
       "readTime": 4,
       "status": "Hypothesis under test",
       "cardText": "A packed festival schedule raises a larger question: who can actually discover, join and feel part of local life?",
@@ -363,7 +367,7 @@
           "heading": "The invisible cost of not knowing",
           "body": [
             "When information is scattered, every organizer has to promote from scratch and every resident has to rediscover where to look. A free program can remain practically inaccessible if the people who would enjoy it never hear about it. The lost opportunity is not only ticket revenue. It is a child who does not find a club, a volunteer who never finds a cause, or a resident who goes another weekend without a reason to be in a shared place.",
-            "This is why a reliable regional events registry is more than a directory. It is a modest piece of civic infrastructure. It can make a public invitation visible to people who are not already friends with the organizer. The useful geography also extends beyond municipal boundaries: Bishop’s Falls, Botwood and Norris Arm are part of the same everyday network of trips, families, sports and outings. An events page that pretends the town line is the limit of local life would misunderstand the valley."
+            "This is why a reliable GFW events calendar is more than a directory. It is a modest piece of civic infrastructure. It can make a public invitation visible to people who are not already friends with the organizer. A town-focused calendar can promise something clear and useful: make activities in Grand Falls-Windsor easier to discover, especially for residents who are not already connected to every club, school or social circle."
           ]
         },
         {
@@ -412,6 +416,10 @@
         "river-as-civic-spine"
       ],
       "log": [
+        {
+          "date": "2026-10-29",
+          "note": "Focused the community-calendar argument on Grand Falls-Windsor rather than neighbouring towns; the wider event registry remains unchanged."
+        },
         {
           "date": "2026-10-28",
           "note": "Major editorial revision: replaced procedural summaries with a more specific, argument-led essay; added historical or operational detail and primary sources. Claims remain open to correction."

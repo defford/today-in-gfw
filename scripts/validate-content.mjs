@@ -79,7 +79,7 @@ const contemporaryPaths = [
   'app/page.tsx', 'components/JournalNav.tsx', 'app/layout.tsx',
   'app/credits/page.tsx', 'app/bigger-picture/page.tsx', 'data/stories.json'
 ];
-const historicalPlaceName = /\bGrand Falls\b(?!-Windsor)|(?<!Grand Falls-)\bWindsor\b/i;
+const historicalPlaceName = /\bGrand Falls\b(?!-Windsor)|(?<!Grand Falls-)(?<!grand-falls-)\bWindsor\b/i;
 for (const path of contemporaryPaths) {
   const copy = readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
   check(!historicalPlaceName.test(copy), `${path}: use Grand Falls-Windsor, not a separate present-day town name`);

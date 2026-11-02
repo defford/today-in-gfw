@@ -54,7 +54,7 @@ export default function Page() {
     <section id="stories" className="section stories-section"><div className="wrap">
       
       <div className="section-title-row"><h2>The day's <em>headlines.</em></h2></div>
-      <Stories stories={storiesData.stories} />
+      <Stories stories={storiesData.stories.filter((story) => !("expiresOn" in story) || String(story.expiresOn) >= today)} />
       <div className="story-source-note">Every story links to its original public source. <span>Analysis is clearly separated from the underlying facts.</span></div>
     </div></section>
     <section id="events" className="section events-section"><div className="wrap">

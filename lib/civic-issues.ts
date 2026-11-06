@@ -12,6 +12,7 @@ export type CivicIssue = {
   lastChecked: string; nextCheck: string; nextToWatch: string;
   known: string[]; openQuestions: string[];
   milestones: CivicMilestone[]; sources: CivicSource[];
+  revisions: { date: string; kind: "initial" | "update" | "correction"; note: string }[];
   action?: { title: string; details: string; until: string; url: string };
 };
 export type CivicIssueData = {

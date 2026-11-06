@@ -1,4 +1,5 @@
 import EventCalendar from "@/components/EventCalendar";
+import MobileMenu from "@/components/MobileMenu";
 import Stories from "@/components/Stories";
 import CivicActions from "@/components/CivicActions";
 import storiesData from "@/data/stories.json";
@@ -20,6 +21,7 @@ export default function Page() {
   <header className="header"><div className="wrap nav">
     <a className="brand" href="#home" aria-label="Today in GFW home"><img className="brand-emblem" src="/assets/river-mark.svg" alt="" width="42" height="42"/><span className="brand-lockup"><span className="brand-word">TODAY <em>IN</em> GFW<span className="brand-period">.</span></span><span className="brand-subline">AN INDEPENDENT GFW BRIEFING</span></span></a>
     <nav className="nav-links" aria-label="Main navigation"><a href="#stories">The briefing</a><a href="/issues">Civic tracker</a><a href="#events">What's on</a><a href="/bigger-picture">The bigger picture</a><a href="#about">About</a></nav>
+    <MobileMenu />
     <a className="header-cta" href="https://www.facebook.com/groups/1465414595688357/" target="_blank" rel="noopener noreferrer">Share an event <span aria-hidden="true">↗</span></a>
   </div></header>
   <main id="home">

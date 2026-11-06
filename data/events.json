@@ -1,10 +1,28 @@
 {
-  "asOf": "2026-10-28",
-  "provenance": "Exploits Events Registry snapshot (community compiled)",
-  "totalActiveDated": 52,
+  "asOf": "2026-11-06",
+  "provenance": "Exploits Events Registry (read 2026-11-06; GFW-only filtered; ambiguous locations omitted)",
+  "totalActiveDated": 14,
   "events": [
     {
       "id": "EVT-001",
+      "title": "Game Day",
+      "dates": [],
+      "multiday": null,
+      "weekday": 0,
+      "time": "1:00-3:30pm",
+      "venue": "Corduroy Brook Nature Centre & Trail",
+      "town": "Grand Falls-Windsor",
+      "price": "FREE",
+      "category": "Community",
+      "recurring": true,
+      "recurrenceDetail": "Every Monday & Tuesday",
+      "sourceUrl": null,
+      "sourceType": "known series",
+      "lastVerified": "2026-11-05",
+      "notes": "Game Day now runs Mondays & Tuesdays per Corduroy Brook flyer shared 2026-11-03 (previously listed Tuesdays only)."
+    },
+    {
+      "id": "EVT-001-TUE",
       "title": "Game Day",
       "dates": [],
       "multiday": null,
@@ -15,11 +33,11 @@
       "price": "FREE",
       "category": "Community",
       "recurring": true,
-      "recurrenceDetail": "Every Tuesday",
+      "recurrenceDetail": "Every Monday & Tuesday",
       "sourceUrl": null,
       "sourceType": "known series",
-      "lastVerified": "2026-10-28",
-      "notes": null
+      "lastVerified": "2026-11-05",
+      "notes": "Game Day now runs Mondays & Tuesdays per Corduroy Brook flyer shared 2026-11-03 (previously listed Tuesdays only)."
     },
     {
       "id": "EVT-002",
@@ -36,7 +54,7 @@
       "recurrenceDetail": "Every Tuesday (starts Oct 27 2026)",
       "sourceUrl": null,
       "sourceType": "nested-share recovery 2026-10-20",
-      "lastVerified": "2026-10-28",
+      "lastVerified": "2026-11-05",
       "notes": null
     },
     {
@@ -54,7 +72,7 @@
       "recurrenceDetail": "Every Wednesday",
       "sourceUrl": null,
       "sourceType": "comment (Gerry Gardner) 2026-10-20",
-      "lastVerified": "2026-10-28",
+      "lastVerified": "2026-11-05",
       "notes": null
     },
     {
@@ -72,7 +90,7 @@
       "recurrenceDetail": "Every Wednesday",
       "sourceUrl": null,
       "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-28",
+      "lastVerified": "2026-11-05",
       "notes": "Karaoke & all-request music; BOGO 1/2 price Labatt draft jugs; no cover charge. Verified by direct flyer read 2026-10-22."
     },
     {
@@ -90,7 +108,7 @@
       "recurrenceDetail": "Every Thursday",
       "sourceUrl": null,
       "sourceType": "group post 2026-10-19",
-      "lastVerified": "2026-10-28",
+      "lastVerified": "2026-11-06",
       "notes": null
     },
     {
@@ -108,7 +126,7 @@
       "recurrenceDetail": "Every Friday",
       "sourceUrl": null,
       "sourceType": "comment (Gerry Gardner) 2026-10-20",
-      "lastVerified": "2026-10-28",
+      "lastVerified": "2026-11-06",
       "notes": "Verified by direct flyer read 2026-10-22 (Legion upcoming-events flyer)."
     },
     {
@@ -126,149 +144,8 @@
       "recurrenceDetail": "Every Saturday",
       "sourceUrl": null,
       "sourceType": "group post (Wendy Morgan) 2026-10-19",
-      "lastVerified": "2026-10-28",
+      "lastVerified": "2026-11-06",
       "notes": "Host: Wilson Jacobs"
-    },
-    {
-      "id": "EVT-020",
-      "title": "Glass Tiger Acoustic",
-      "dates": [
-        "2026-10-28"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": null,
-      "venue": "3 Cromer Ave, GFW (ACC Presentation Series)",
-      "town": "Grand Falls-Windsor",
-      "price": null,
-      "category": "Live Music",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": null,
-      "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-19",
-      "notes": null
-    },
-    {
-      "id": "EVT-021",
-      "title": "Halloween Gym Events",
-      "dates": [
-        "2026-10-30",
-        "2026-10-31"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "Oct 30: 8:30-11pm Haunted Gym (Dare to be Scared); Oct 31: 11am-2pm Family Fun Event",
-      "venue": "Perfectly Centered Gymnastics",
-      "town": "Grand Falls-Windsor",
-      "price": "$10",
-      "category": "Halloween",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": null,
-      "sourceType": "share recovery",
-      "lastVerified": "2026-10-27",
-      "notes": "Costumes encouraged. Flyer read 2026-10-27 (Emily RC post): Oct 30 Haunted Gym 8:30-11pm + Oct 31 Family Fun 11am-2pm; flyer states no price, prior $10 kept unverified."
-    },
-    {
-      "id": "EVT-022",
-      "title": "Jiggs' Farm Haunted Barn (Extra Scary)",
-      "dates": [
-        "2026-10-30"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "7-9pm",
-      "venue": "Jiggs' Farm",
-      "town": "Grand Falls-Windsor",
-      "price": "$10/person",
-      "category": "Halloween",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": null,
-      "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-26",
-      "notes": "Free hot chocolate; wagon rides. Oct 30 Extra Scary night confirmed still on by Jiggs Farm repost 2026-10-24."
-    },
-    {
-      "id": "EVT-023",
-      "title": "Pop-up Halloween Art Gallery",
-      "dates": [
-        "2026-10-31"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "10am-3pm",
-      "venue": "Next to Mill Coffee Co., High St",
-      "town": "Grand Falls-Windsor",
-      "price": "FREE",
-      "category": "Arts & Crafts",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": null,
-      "sourceType": "group post",
-      "lastVerified": "2026-10-28",
-      "notes": "Red Maple Festival listing: The Hive, 7 High Street, in conjunction with the Mill Coffee Shop (buy a coffee, name entered into a draw)."
-    },
-    {
-      "id": "EVT-024",
-      "title": "Trunk or Treat (Crimestoppers)",
-      "dates": [
-        "2026-10-31"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "2:30 PM",
-      "venue": "CNA Parking Lot",
-      "town": "Grand Falls-Windsor",
-      "price": null,
-      "category": "Halloween",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": null,
-      "sourceType": "share (flyer artwork only; date from event page)",
-      "lastVerified": "2026-10-28",
-      "notes": "Exploits Valley Crimestoppers; Red Maple Festival listing confirms CNA Parking Lot, 2:30 PM, FREE."
-    },
-    {
-      "id": "EVT-025",
-      "title": "Peterview Trunk or Treat",
-      "dates": [
-        "2026-10-31"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "6:30-8pm",
-      "venue": "Riverside Park",
-      "town": "Bishop's Falls",
-      "price": "FREE",
-      "category": "Halloween",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": null,
-      "sourceType": "group post",
-      "lastVerified": "2026-10-19",
-      "notes": null
-    },
-    {
-      "id": "EVT-026",
-      "title": "Trick or Treating at Grand Falls House",
-      "dates": [
-        "2026-10-31"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "5:30-8:30pm",
-      "venue": "Grand Falls House, Lincoln Rd",
-      "town": "Grand Falls-Windsor",
-      "price": "FREE",
-      "category": "Halloween",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": null,
-      "sourceType": "group post",
-      "lastVerified": "2026-10-19",
-      "notes": "Pedestrians only; Town of GFW + Grand Falls House Foundation"
     },
     {
       "id": "EVT-027",
@@ -287,7 +164,7 @@
       "recurrenceDetail": null,
       "sourceUrl": null,
       "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-22",
+      "lastVerified": "2026-11-06",
       "notes": "Ticket deadline Oct 31; veterans+guest and widows/widowers+guest free; register 489-6560"
     },
     {
@@ -329,26 +206,6 @@
       "sourceType": "group post",
       "lastVerified": "2026-10-19",
       "notes": "Moose burgers & soups"
-    },
-    {
-      "id": "EVT-030",
-      "title": "9th Annual Holly Jolly Market",
-      "dates": [
-        "2026-11-21"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "10am-3pm",
-      "venue": "130 Magee Rd, Gander",
-      "town": "Gander",
-      "price": null,
-      "category": "Markets & Fairs",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": null,
-      "sourceType": "group page (live)",
-      "lastVerified": "2026-10-18",
-      "notes": "90+ vendors; hosted by Salt Water Bath Bombs"
     },
     {
       "id": "EVT-031",
@@ -407,7 +264,7 @@
       "recurrenceDetail": "Every Thursday",
       "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1467294665500350/",
       "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-22",
+      "lastVerified": "2026-11-06",
       "notes": "Verified by direct flyer read 2026-10-22."
     },
     {
@@ -425,48 +282,8 @@
       "recurrenceDetail": "Every Tuesday",
       "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1467332092163274/",
       "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-28",
+      "lastVerified": "2026-11-05",
       "notes": "Cash prizes. Verified by direct flyer read 2026-10-22."
-    },
-    {
-      "id": "EVT-039",
-      "title": "Trunk or Treat (Evangel)",
-      "dates": [
-        "2026-10-31"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "5:00-6:00pm",
-      "venue": "Evangel (parking lot)",
-      "town": "Grand Falls-Windsor",
-      "price": null,
-      "category": "Halloween",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1467353678827782/",
-      "sourceType": "group post (share, Wendy Morgan)",
-      "lastVerified": "2026-10-27",
-      "notes": "Make Evangel your first stop on your Sweet Adventure'; while supplies last; full church name not legible in share"
-    },
-    {
-      "id": "EVT-041",
-      "title": "Halloween Dance (music by DJ V)",
-      "dates": [
-        "2026-10-31"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "9:00 PM",
-      "venue": "Legion Branch 012, GFW",
-      "town": "Grand Falls-Windsor",
-      "price": null,
-      "category": "Halloween",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1467403142156169/",
-      "sourceType": "Legion upcoming-events flyer",
-      "lastVerified": "2026-10-22",
-      "notes": "Music by DJV. Verified by direct flyer read 2026-10-22 (Legion upcoming-events flyer)."
     },
     {
       "id": "EVT-042",
@@ -523,7 +340,7 @@
       "recurrenceDetail": "Every Tuesday",
       "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1467369122159571/",
       "sourceType": "comment (Chris Becker) 2026-10-21",
-      "lastVerified": "2026-10-28",
+      "lastVerified": "2026-11-05",
       "notes": "Newcomers of any skill level welcome; venue not stated Venue confirmed 2026-10-27: rehearses in the front room at Jim's Groceteria (per Chris Becker's comment on the Oct 27 weekly spotlight post)."
     },
     {
@@ -541,7 +358,7 @@
       "recurrenceDetail": "Every Thursday",
       "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1467403142156169/",
       "sourceType": "Legion upcoming-events flyer",
-      "lastVerified": "2026-10-28",
+      "lastVerified": "2026-11-06",
       "notes": "Members Only. Verified by direct flyer read 2026-10-22 (Legion upcoming-events flyer)."
     },
     {
@@ -559,68 +376,8 @@
       "recurrenceDetail": "Every Friday (members only)",
       "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1467403142156169/",
       "sourceType": "Legion upcoming-events flyer",
-      "lastVerified": "2026-10-28",
+      "lastVerified": "2026-11-06",
       "notes": "Members only; day mapping inferred from flyer text order - not confirmed by direct visual read"
-    },
-    {
-      "id": "EVT-053",
-      "title": "Three Nights of Frights: A Nightmare on Elm Street",
-      "dates": [
-        "2026-10-28"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": null,
-      "venue": "The Classic Theater",
-      "town": "Grand Falls-Windsor",
-      "price": "$5",
-      "category": "Halloween",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1469525375277279/",
-      "sourceType": "group post (video, Jackie Feener)",
-      "lastVerified": "2026-10-23",
-      "notes": "Rated 14A; tickets www.theclassictheater.net"
-    },
-    {
-      "id": "EVT-054",
-      "title": "Three Nights of Frights: Scream",
-      "dates": [
-        "2026-10-29"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": null,
-      "venue": "The Classic Theater",
-      "town": "Grand Falls-Windsor",
-      "price": "$5",
-      "category": "Halloween",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1469525375277279/",
-      "sourceType": "group post (video, Jackie Feener)",
-      "lastVerified": "2026-10-23",
-      "notes": "Rated 14A; tickets www.theclassictheater.net"
-    },
-    {
-      "id": "EVT-055",
-      "title": "Bingo Night",
-      "dates": [
-        "2026-10-29"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "Doors 6:30pm, game 8:00pm",
-      "venue": "Norris Arm Heritage and Arts Centre",
-      "town": "Norris Arm",
-      "price": null,
-      "category": "Community",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1469289281967555/",
-      "sourceType": "group post (share, Norris Arm Heritage and Arts Centre)",
-      "lastVerified": "2026-10-23",
-      "notes": "Cash prizes; jackpot $675; 50/50 & Nevada tickets; canteen & bar; info (709) 653-2350. Verified by direct visual flyer read 2026-10-23."
     },
     {
       "id": "EVT-056",
@@ -637,7 +394,7 @@
       "recurrenceDetail": "Every Friday",
       "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1469532771943206/",
       "sourceType": "group post (flyer, Ken Marshall)",
-      "lastVerified": "2026-10-28",
+      "lastVerified": "2026-11-06",
       "notes": "80s music show hosted by Ken Marshall; radio broadcast 94.5 FM. 'Join me live' may also stream as Facebook Live - unconfirmed."
     },
     {
@@ -661,365 +418,233 @@
       "notes": "Donation box for Community Kitchen; support local vendors"
     },
     {
-      "id": "EVT-058",
-      "title": "Halloween Social (Norris Arm)",
-      "dates": [
-        "2026-10-31"
-      ],
+      "id": "EVT-070",
+      "title": "Live Entertainment @ The Terrace",
+      "dates": [],
       "multiday": null,
-      "weekday": null,
-      "time": "8:00pm-12:00am",
-      "venue": "Norris Arm Heritage and Arts Centre",
-      "town": "Norris Arm",
-      "price": "by donation",
-      "category": "Halloween",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1469119168651233/",
-      "sourceType": "comment (Norris Arm Heritage and Arts Centre) 2026-10-23",
-      "lastVerified": "2026-10-24",
-      "notes": "Open mic, karaoke, food; 100% of proceeds to community programming, incl. replacing antique bingo machine"
+      "weekday": 4,
+      "time": "9:00 PM",
+      "venue": "The Terrace",
+      "town": "Grand Falls-Windsor",
+      "price": "no cover",
+      "category": "Live Music",
+      "recurring": true,
+      "recurrenceDetail": "Fridays",
+      "sourceUrl": null,
+      "sourceType": "comment",
+      "lastVerified": "2026-11-06",
+      "notes": "Per Tyler Marsh's comment on the Oct 27 weekly spotlight post: live entertainment every Friday at The Terrace, 9pm start, no cover charge."
     },
     {
-      "id": "EVT-059",
-      "title": "Halloween Bash III (Re-Wind)",
+      "id": "EVT-083",
+      "title": "Cantus Silva: GFW Women's Choir Eighth Annual Christmas Concert",
       "dates": [
-        "2026-10-30"
+        "2026-11-25"
       ],
       "multiday": null,
       "weekday": null,
-      "time": null,
-      "venue": "The Terrace Pub & Patio",
+      "time": "7:30 PM",
+      "venue": "The Cathedral of the Immaculate Conception (Father Joseph Uy)",
       "town": "Grand Falls-Windsor",
-      "price": "$15",
+      "price": "$10.00",
       "category": "Live Music",
       "recurring": false,
       "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1471215948441555/",
-      "sourceType": "group post (flyer, Tyler Marsh)",
-      "lastVerified": "2026-10-25",
-      "notes": "Costume contest $700 in prizes; drink specials; tickets on sale Tue Oct 27 6pm sharp."
-    },
-    {
-      "id": "EVT-060",
-      "title": "Trunk or Treat (St Albans)",
-      "dates": [
-        "2026-10-29"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "5:00pm until treats gone",
-      "venue": "St. Albans Anglican Church, 13 Masters Avenue, GFW",
-      "town": "Grand Falls-Windsor",
-      "price": null,
-      "category": "Halloween",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1472132975016519/",
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1477518421144641/",
       "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-27",
-      "notes": null
+      "lastVerified": "2026-11-01",
+      "notes": "Artistic Director Michael Snelgrove; featuring Justin Poirier, Aiden Hartery, Paul Brown, Michael Snelgrove; accompanists Stephanie Fudge, Brittany Jewer; tickets from any choir member, limited tickets at the door."
     },
     {
-      "id": "EVT-061",
-      "title": "Halloween Party (Botwood Legion)",
+      "id": "EVT-108",
+      "title": "SLIME Pop-up Event",
       "dates": [
-        "2026-10-31"
+        "2026-11-28"
       ],
       "multiday": null,
       "weekday": null,
-      "time": "Dance starts 9pm",
-      "venue": "Royal Canadian Legion Branch 5, Botwood",
-      "town": "Botwood",
-      "price": "$10 cover",
-      "category": "Halloween",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1472132001683283/",
-      "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-27",
-      "notes": "Music by DJ Sean; costume contest."
-    },
-    {
-      "id": "EVT-062",
-      "title": "Kelly's Pub Halloween Bash with All-Star Superheroes",
-      "dates": [
-        "2026-10-31"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "10:00 PM",
-      "venue": "Kelly's Pub, 18 Hill Rd, GFW",
+      "time": "12-5pm",
+      "venue": "The Art Emporium, 136 Main St, GFW",
       "town": "Grand Falls-Windsor",
-      "price": null,
-      "category": "Live Music",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1472130068350143/",
-      "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-27",
-      "notes": "Time conflict resolved by Daniel 2026-10-26: use the post caption time, 10pm (standalone flyer said 10:30 PM; Kelly's weekend bash flyer said 11pm). 90s-2000s pop-punk / alt-rock."
-    },
-    {
-      "id": "EVT-063",
-      "title": "Spooky & Sweet Evening Show with 3s a Crowd",
-      "dates": [
-        "2026-10-30"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "5:30 PM",
-      "venue": "Kelly's Pub, 18 Hill Rd, GFW",
-      "town": "Grand Falls-Windsor",
-      "price": null,
-      "category": "Live Music",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1472162911680192/",
-      "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-27",
-      "notes": "Part of Kelly's 'Party Til You're Dead' weekend bash; live music, festive treats, fun evening for the earlier crowd."
-    },
-    {
-      "id": "EVT-064",
-      "title": "Halloween-Eve Party with DJ Daniel Dee",
-      "dates": [
-        "2026-10-30"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "11:00 PM",
-      "venue": "Kelly's Pub, 18 Hill Rd, GFW",
-      "town": "Grand Falls-Windsor",
-      "price": null,
-      "category": "Live Music",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1472162911680192/",
-      "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-27",
-      "notes": "Part of Kelly's 'Party Til You're Dead' weekend bash; night 1 of prizes, contests, specials."
-    },
-    {
-      "id": "EVT-065",
-      "title": "Halloween SLIME Pop-up Event",
-      "dates": [
-        "2026-10-30"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "3:30-8:30pm",
-      "venue": "The Art Emporium / Morgan Art Academy, 136 Main Street, GFW",
-      "town": "Grand Falls-Windsor",
-      "price": "$5-$12",
+      "price": "$10-$14 per slime experience",
       "category": "Arts & Crafts",
       "recurring": false,
       "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1472133815016435/",
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1482132744016542/",
       "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-27",
-      "notes": "Design-your-own spooky slime bar; stay and play in the studio. Drop-in, no registration required, while supplies last."
+      "lastVerified": "2026-11-06",
+      "notes": "Create your slime, pick colours, glitter, scents and more; make and take home your own slime creation."
     },
     {
-      "id": "EVT-066",
-      "title": "Scouts Haunted Trail (Scary)",
+      "id": "EVT-109",
+      "title": "We Will Remember",
       "dates": [
-        "2026-10-30"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "7-9pm",
-      "venue": "Salmonid Interpretation Centre",
-      "town": "Grand Falls-Windsor",
-      "price": "$5/person",
-      "category": "Halloween",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1473101394919677/",
-      "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-27",
-      "notes": "Canteen available on site. 4th Grand Falls Scouts. Additional scary night following the Oct 24-25 trail weekend."
-    },
-    {
-      "id": "EVT-071",
-      "title": "Yard Sale for a Great Cause",
-      "dates": [
-        "2026-10-31"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "10:00 AM-1:00 PM",
-      "venue": "Queensway Place, 10 Queensway Park",
-      "town": "Grand Falls-Windsor",
-      "price": "Items priced to go; 100% of proceeds to Lionel Kelland Hospice",
-      "category": "Markets & Fairs",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1474075898155560/",
-      "sourceType": "group post",
-      "lastVerified": "2026-10-28",
-      "notes": "Hosted by Theresa & the Silver Spurs Line Dancing Group; in support of Lionel Kelland Hospice."
-    },
-    {
-      "id": "EVT-072",
-      "title": "Grand Rodeo 3rd Anniversary Celebration",
-      "dates": [
-        "2026-11-01"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "Free coffee & muffins 12:00-4:00 PM; live music 6:00-9:00 PM",
-      "venue": "Grand Rodeo Lounge & Cafe, Grand Falls-Windsor",
-      "town": "Grand Falls-Windsor",
-      "price": "FREE",
-      "category": "Live Music",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1474163814813435/",
-      "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-28",
-      "notes": "Live music by The Rogue Notes 6-9pm; free coffee & muffins 12-4pm (while supplies last); surprise prizes throughout the day; share & tag for a chance to win dinner for two."
-    },
-    {
-      "id": "EVT-073",
-      "title": "Sherman Downey Live",
-      "dates": [
-        "2026-11-19"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "7:00 PM",
-      "venue": "Norris Arm Heritage and Arts Centre",
-      "town": "Norris Arm",
-      "price": "$30",
-      "category": "Live Music",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1474254534804363/",
-      "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-28",
-      "notes": "Authentic folk style; moose burger sale on the night; tickets 709 653 2350 / norrisarmheritage@gmail.com."
-    },
-    {
-      "id": "EVT-074",
-      "title": "Red Maple Festival",
-      "dates": [],
-      "multiday": {
-        "start": "2026-10-29",
-        "end": "2026-11-05"
-      },
-      "weekday": null,
-      "time": null,
-      "venue": "Various venues, Grand Falls-Windsor",
-      "town": "Grand Falls-Windsor",
-      "price": "Mostly FREE",
-      "category": "Community",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://grandfallswindsor.com/red-maple-festival-2026/",
-      "sourceType": "Town of Grand Falls-Windsor updated festival schedule (October 30, 2026)",
-      "lastVerified": "2026-10-31",
-      "notes": "Official Town schedule updated October 30. Festival October 29–November 5. Oct 31: CNVAS pop-up gallery at The Hive, Crime Stoppers Trunk or Treat at CNA, Grand Falls House trick-or-treating, and late free movie. Sunday Nov 1: Fall Family Fun Day RESCHEDULED from Oct 31 to Sanger Park, 12:30–3:30 p.m.; Halloween Howl Walk MOVED to Sanger Park (Town does not list a separate time). Decoration contest registration closed Oct 30 at noon; Town lists winners Nov 2. Original community flyer: https://facebook.com/groups/1465414595688357/permalink/1473947141501769/ . Check the updated official schedule for changes."
-    },
-    {
-      "id": "EVT-075",
-      "title": "Fall Family Fun Day (Red Maple Festival)",
-      "dates": [
-        "2026-11-01"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "12:30-3:30 PM",
-      "venue": "Sanger Park",
-      "town": "Grand Falls-Windsor",
-      "price": "FREE",
-      "category": "Community",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://grandfallswindsor.com/red-maple-festival-2026/",
-      "sourceType": "Town of Grand Falls-Windsor updated festival schedule (October 30, 2026)",
-      "lastVerified": "2026-10-31",
-      "notes": "RESCHEDULED from October 31 to Sunday November 1, 12:30–3:30 PM at Sanger Park, per Town's October 30 updated festival schedule. Free horse rides, games, mini pumpkin decorating (while supplies last), scavenger hunt, face painting, photo booth, treats and hot chocolate; BBQ/refreshments for purchase. Original community flyer (outdated date): https://facebook.com/groups/1465414595688357/permalink/1473947141501769/"
-    },
-    {
-      "id": "EVT-076",
-      "title": "Free Movie: Halloween (1978) (Red Maple Festival)",
-      "dates": [
-        "2026-10-31"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "11:00 PM",
-      "venue": "The Classic Theater",
-      "town": "Grand Falls-Windsor",
-      "price": "FREE",
-      "category": "Community",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1473947141501769/",
-      "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-28",
-      "notes": "Free admission; concessions available for purchase."
-    },
-    {
-      "id": "EVT-077",
-      "title": "Halloween Howl Walk (Red Maple Festival)",
-      "dates": [
-        "2026-11-01"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": null,
-      "venue": "Sanger Park",
-      "town": "Grand Falls-Windsor",
-      "price": "FREE",
-      "category": "Community",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://grandfallswindsor.com/red-maple-festival-2026/",
-      "sourceType": "Town of Grand Falls-Windsor updated festival schedule (October 30, 2026)",
-      "lastVerified": "2026-10-31",
-      "notes": "MOVED from Church Road Park to Sanger Park per Town's updated October 30 festival schedule, alongside Fall Family Fun Day on Sunday November 1. No separate walk time appears in the revised Town listing; check organizer before attending. Original community flyer (outdated location): https://facebook.com/groups/1465414595688357/permalink/1473947141501769/"
-    },
-    {
-      "id": "EVT-078",
-      "title": "Community Bonfire (Red Maple Festival)",
-      "dates": [
-        "2026-11-05"
-      ],
-      "multiday": null,
-      "weekday": null,
-      "time": "6:00-8:00 PM",
-      "venue": "Red Cliff Rocks Campground",
-      "town": "Grand Falls-Windsor",
-      "price": "FREE",
-      "category": "Community",
-      "recurring": false,
-      "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1473947141501769/",
-      "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-28",
-      "notes": "Free popcorn and hot chocolate provided."
-    },
-    {
-      "id": "EVT-079",
-      "title": "Pianomen: The Music of Billy Joel and Elton John (Red Maple Festival)",
-      "dates": [
-        "2026-11-05"
+        "2026-11-11",
+        "2026-11-12"
       ],
       "multiday": null,
       "weekday": null,
       "time": "7:30 PM",
       "venue": "Gordon Pinsent Centre for the Arts",
       "town": "Grand Falls-Windsor",
-      "price": "$58 adults / $40 students",
+      "price": null,
+      "category": "Arts & Crafts",
+      "recurring": false,
+      "recurrenceDetail": null,
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1481401397423010/",
+      "sourceType": "flyer (direct visual read)",
+      "lastVerified": "2026-11-05",
+      "notes": "Northcliffe Drama Club presentation for the benefit of Royal Canadian Legion Branch 12; written and directed by Ged Blackmore, musical direction by Mike Snelgrove. No ticket price shown on flyer."
+    },
+    {
+      "id": "EVT-110",
+      "title": "Yoga (Corduroy Brook)",
+      "dates": [],
+      "multiday": null,
+      "weekday": 0,
+      "time": "7:00 PM",
+      "venue": "Corduroy Brook Nature Centre, 2 Conservation Place",
+      "town": "Grand Falls-Windsor",
+      "price": "$16 drop-in",
+      "category": "Community",
+      "recurring": true,
+      "recurrenceDetail": "Every Monday & Wednesday",
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1481271837435966/",
+      "sourceType": "flyer (direct visual read)",
+      "lastVerified": "2026-11-05",
+      "notes": "Register/info: gowiththeflowjen@gmail.com."
+    },
+    {
+      "id": "EVT-110-TUE",
+      "title": "Yoga (Corduroy Brook)",
+      "dates": [],
+      "multiday": null,
+      "weekday": 2,
+      "time": "7:00 PM",
+      "venue": "Corduroy Brook Nature Centre, 2 Conservation Place",
+      "town": "Grand Falls-Windsor",
+      "price": "$16 drop-in",
+      "category": "Community",
+      "recurring": true,
+      "recurrenceDetail": "Every Monday & Wednesday",
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1481271837435966/",
+      "sourceType": "flyer (direct visual read)",
+      "lastVerified": "2026-11-05",
+      "notes": "Register/info: gowiththeflowjen@gmail.com."
+    },
+    {
+      "id": "EVT-111",
+      "title": "Zumba with Josie",
+      "dates": [],
+      "multiday": null,
+      "weekday": 1,
+      "time": "6:30 PM",
+      "venue": "Corduroy Brook Nature Centre, 2 Conservation Place",
+      "town": "Grand Falls-Windsor",
+      "price": "$10",
+      "category": "Community",
+      "recurring": true,
+      "recurrenceDetail": "Every Tuesday",
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1481271837435966/",
+      "sourceType": "flyer (direct visual read)",
+      "lastVerified": "2026-11-05",
+      "notes": "Register/info: marshaljosie82@gmail.com."
+    },
+    {
+      "id": "EVT-112",
+      "title": "Little Sprouts Play Time",
+      "dates": [],
+      "multiday": null,
+      "weekday": 0,
+      "time": "9:30-11:30am",
+      "venue": "Corduroy Brook Nature Centre, 2 Conservation Place",
+      "town": "Grand Falls-Windsor",
+      "price": "$75/series",
+      "category": "Community",
+      "recurring": true,
+      "recurrenceDetail": "Mondays & Tuesdays, Nov 2 - Dec 1, 2026",
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1481271837435966/",
+      "sourceType": "flyer (direct visual read)",
+      "lastVerified": "2026-11-05",
+      "notes": "Ongoing registration; price reflects remaining sessions."
+    },
+    {
+      "id": "EVT-112-TUE",
+      "title": "Little Sprouts Play Time",
+      "dates": [],
+      "multiday": null,
+      "weekday": 1,
+      "time": "9:30-11:30am",
+      "venue": "Corduroy Brook Nature Centre, 2 Conservation Place",
+      "town": "Grand Falls-Windsor",
+      "price": "$75/series",
+      "category": "Community",
+      "recurring": true,
+      "recurrenceDetail": "Mondays & Tuesdays, Nov 2 - Dec 1, 2026",
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1481271837435966/",
+      "sourceType": "flyer (direct visual read)",
+      "lastVerified": "2026-11-05",
+      "notes": "Ongoing registration; price reflects remaining sessions."
+    },
+    {
+      "id": "EVT-113",
+      "title": "The Rogue Notes @ Kelly's Pub",
+      "dates": [
+        "2026-11-06"
+      ],
+      "multiday": null,
+      "weekday": null,
+      "time": "5:30-8:30pm",
+      "venue": "Kelly's Pub",
+      "town": "Grand Falls-Windsor",
+      "price": null,
       "category": "Live Music",
       "recurring": false,
       "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1473947141501769/",
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1481254164104400/",
       "sourceType": "flyer (direct visual read)",
-      "lastVerified": "2026-10-28",
-      "notes": "Tickets: 709-292-4518 or online Box Office."
+      "lastVerified": "2026-11-06",
+      "notes": "Friday early show; no price shown on flyer."
+    },
+    {
+      "id": "EVT-114",
+      "title": "DJ Chad @ Kelly's Pub",
+      "dates": [
+        "2026-11-06"
+      ],
+      "multiday": null,
+      "weekday": null,
+      "time": "11:00 PM",
+      "venue": "Kelly's Pub",
+      "town": "Grand Falls-Windsor",
+      "price": "$7 cover",
+      "category": "Live Music",
+      "recurring": false,
+      "recurrenceDetail": null,
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1481254164104400/",
+      "sourceType": "flyer (direct visual read)",
+      "lastVerified": "2026-11-06",
+      "notes": "Friday late show."
+    },
+    {
+      "id": "EVT-115",
+      "title": "Saving Liberty Duo @ Kelly's Pub",
+      "dates": [
+        "2026-11-07"
+      ],
+      "multiday": null,
+      "weekday": null,
+      "time": "11:00 PM",
+      "venue": "Kelly's Pub",
+      "town": "Grand Falls-Windsor",
+      "price": null,
+      "category": "Live Music",
+      "recurring": false,
+      "recurrenceDetail": null,
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1481254164104400/",
+      "sourceType": "flyer (direct visual read)",
+      "lastVerified": "2026-11-06",
+      "notes": "Saturday late show; no price shown on flyer."
     }
   ]
 }

@@ -18,6 +18,7 @@ const unique = (values, label) => check(values.length === new Set(values).size, 
 const journal = load('data/perspectives.json');
 const stories = load('data/stories.json');
 const registry = load('data/events.json');
+const civic = load('data/civic-issues.json');
 
 check(Array.isArray(journal.posts), 'perspectives.posts must be an array');
 const posts = Array.isArray(journal.posts) ? journal.posts : [];
@@ -53,6 +54,46 @@ for (const s of news) {
   }
 }
 
+
+check(civic.schemaVersion === 1 && isISODate(civic.edition), 'Civic tracker: invalid schema version or edition date');
+check(Array.isArray(civic.issues), 'Civic tracker issues must be an array');
+const cases = Array.isArray(civic.issues) ? civic.issues : [];
+unique(cases.map(item => item.slug), 'Civic tracker slugs');
+for (const item of cases) {
+  const id = `Civic case ${item.slug ?? '(missing slug)'}`;
+  check(typeof item.slug === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.slug), `${id}: invalid slug`);
+  for (const key of ['title', 'theme', 'location', 'status', 'summary', 'whyItMatters', 'nextToWatch']) {
+    check(nonempty(item[key]), `${id}: missing ${key}`);
+  }
+  check(isISODate(item.lastChecked) && isISODate(item.nextCheck), `${id}: invalid source or next-review date`);
+  check(Array.isArray(item.stages) && item.stages.length >= 2 && item.stages.every(nonempty), `${id}: invalid process steps`);
+  check(Number.isInteger(item.currentStage) && item.currentStage >= 0 && item.currentStage < item.stages?.length, `${id}: invalid current step`);
+  check(Array.isArray(item.known) && item.known.length > 0 && item.known.every(nonempty), `${id}: missing documented facts`);
+  check(Array.isArray(item.openQuestions) && item.openQuestions.length > 0 && item.openQuestions.every(nonempty), `${id}: missing open questions`);
+  check(Array.isArray(item.sources) && item.sources.length > 0, `${id}: requires a public source`);
+  const sourceUrls = new Set((item.sources ?? []).map(source => source.url));
+  for (const source of item.sources ?? []) {
+    check(nonempty(source.label) && isSourceURL(source.url) && isISODate(source.checked), `${id}: invalid source details`);
+  }
+  check(Array.isArray(item.milestones) && item.milestones.length > 0, `${id}: requires dated milestones`);
+  const milestoneIds = (item.milestones ?? []).map(m => `${m.date}|${m.label}`);
+  unique(milestoneIds, `${id} milestone IDs`);
+  for (const milestone of item.milestones ?? []) {
+    check(isISODate(milestone.date) && nonempty(milestone.label) && nonempty(milestone.detail), `${id}: invalid milestone`);
+    check(['scheduled','occurred'].includes(milestone.state), `${id}: invalid milestone verification state`);
+    check(sourceUrls.has(milestone.sourceUrl), `${id}: milestone needs a cited source`);
+  }
+  check(Array.isArray(item.revisions) && item.revisions.length > 0, `${id}: missing revision history`);
+  for (const change of item.revisions ?? []) {
+    check(isISODate(change.date) && change.date <= item.lastChecked, `${id}: invalid revision date`);
+    check(['initial','update','correction'].includes(change.kind) && nonempty(change.note), `${id}: incomplete revision entry`);
+  }
+  if (item.action) {
+    check(nonempty(item.action.title) && nonempty(item.action.details) && isISODate(item.action.until), `${id}: invalid civic participation action`);
+    check(sourceUrls.has(item.action.url), `${id}: action needs a cited primary source`);
+  }
+}
+
 check(Array.isArray(registry.events), 'events.events must be an array');
 const events = Array.isArray(registry.events) ? registry.events : [];
 unique(events.map(e => e.id), 'Event IDs');
@@ -70,7 +111,8 @@ for (const e of events) {
  * The underlying event registry intentionally retains surrounding communities. */
 const publicPaths = [
   'app/page.tsx', 'components/EventCalendar.tsx', 'app/bigger-picture/page.tsx',
-  'app/layout.tsx', 'app/credits/page.tsx', 'data/stories.json', 'data/perspectives.json'
+  'app/layout.tsx', 'app/credits/page.tsx', 'app/issues/page.tsx', 'app/issues/[slug]/page.tsx',
+  'data/civic-issues.json', 'data/stories.json', 'data/perspectives.json'
 ];
 const outsideTown = /Bishop['’]s Falls|Botwood|Norris Arm|Gander/i;
 for (const path of publicPaths) {
@@ -81,7 +123,8 @@ for (const path of publicPaths) {
 // The historical essay is deliberately exempt when it explicitly addresses pre-1991 events.
 const contemporaryPaths = [
   'app/page.tsx', 'components/JournalNav.tsx', 'app/layout.tsx',
-  'app/credits/page.tsx', 'app/bigger-picture/page.tsx', 'data/stories.json'
+  'app/credits/page.tsx', 'app/bigger-picture/page.tsx', 'app/issues/page.tsx',
+  'app/issues/[slug]/page.tsx', 'data/civic-issues.json', 'data/stories.json'
 ];
 const historicalPlaceName = /\bGrand Falls\b(?!-Windsor)|(?<!Grand Falls-)(?<!grand-falls-)\bWindsor\b/i;
 for (const path of contemporaryPaths) {
@@ -104,5 +147,5 @@ if (errors.length) {
   console.error(`Editorial content validation failed (${errors.length}):\n` + errors.map(e => ` - ${e}`).join('\n'));
   process.exit(1);
 }
-console.log(`Content structure validated: ${posts.length} essays, ${news.length} stories, ${events.length} events.`);
+console.log(`Content structure validated: ${posts.length} essays, ${news.length} stories, ${events.length} events, ${cases.length} civic cases.`);
 console.log('Note: human/editorial fact checking and source rights checks remain mandatory.');

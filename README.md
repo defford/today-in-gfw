@@ -48,3 +48,17 @@ is eventually obtained, preserve the attribution and CC BY-SA conditions.
 ## Editorial standard for The Bigger Picture
 
 An essay should make a debatable, locally specific argument with a revealing opening, an actual tension or counterargument, original synthesis, and a conclusion that changes how the reader sees a familiar place. The body is readable narrative, not a checklist of source assessments. Facts and interpretation remain clearly distinguished in supporting notes. Do not pad with procedural assurances or hedge statements that are not materially uncertain. Prefer revising an existing essay to posting repetitive updates. Never invent interviews, quotes, expenditures, dates or outcomes.
+
+
+## Civic issues — persistent public case tracker
+
+- `/issues`: a small, source-linked public index of issues the publication is following.
+- `/issues/[slug]`: a dated case record with the original sources, a documented process stage, an event timeline, explicit unknowns and a revision/correction log.
+- `data/civic-issues.json`: the version-controlled, intentionally **public-only** case source. `lib/civic-issues.ts` provides typed access and local dates. Do not import private research or sensitive stakeholder details here.
+- The initial cases cover the Lincoln Road amendments, Scott Avenue housing proposal, municipal by-election and nearby highway-twinning work. Stage labels refer to available evidence, **not** confirmed outcomes.
+- `lastChecked` means a researcher verified the listed public sources on that date; `nextCheck` is a research queue hint, not a promise of publication. Never advance the stage, label a scheduled milestone as occurred, or invent results without fresh primary evidence.
+- Update a case under its existing stable slug. Add or revise sourced milestones and facts; append a dated `revisions` entry for material changes or corrections. Use `kind: "correction"` for public corrections.
+- Optional `action` objects must link to listed original sources and expire using `until`; expired opportunities are automatically hidden. Do not leave expired calls to action live.
+- Validation checks IDs, stage bounds, dates, source URLs, evidence, municipality scope and revision logs; CI also runs TypeScript and a production build. Passing CI does **not** verify the underlying claims.
+- All civic case/news/editorial changes require a reviewed PR. The separate calendar-only auto-publishing exception does not extend to this tracker.
+- This is a repository-backed publication record, not yet an independently connected real-time ingest database. The daily editorial research automation must fetch current `main` and open a sourced PR when evidence warrants a case update, never claim a case has changed on the public website before a production deployment is verified.

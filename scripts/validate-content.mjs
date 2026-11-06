@@ -47,6 +47,10 @@ for (const s of news) {
   check(nonempty(s.id) && nonempty(s.title) && nonempty(s.summary), `Story ${s.id}: missing text`);
   check(isISODate(s.date) && isISODate(s.updated), `Story ${s.id}: invalid date`);
   check(nonempty(s.source) && isSourceURL(s.sourceUrl), `Story ${s.id}: missing source`);
+  if (s.action !== undefined) {
+    check(nonempty(s.action.text) && nonempty(s.action.deadlineLabel), `Story ${s.id}: incomplete civic action`);
+    check(isISODate(s.action.until), `Story ${s.id}: invalid civic action expiration`);
+  }
 }
 
 check(Array.isArray(registry.events), 'events.events must be an array');

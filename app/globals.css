@@ -67,3 +67,17 @@
 @media(max-width:390px){.journal-nav nav a:first-child{display:none}.journal-intro-action>span{font-size:8px}.journal-steps>div{grid-template-columns:25px 1fr}.journal-steps p{grid-column:2}.article-meta{gap:7px}.article-meta>span{font-size:8px}.related-grid .journal-art{width:100px}.related-grid>a{grid-template-columns:100px 1fr}}
 
 .context-blog-link{display:inline-flex;gap:19px;align-items:center;margin-top:20px;padding:14px 19px;background:#163f43;color:white;font-size:12px;font-weight:800}.context-card{transition:background .2s,transform .2s;display:block;color:inherit}.context-card:hover{background:#fcfaf2;transform:translateX(3px)}.context-card b{display:block;font-size:11px;color:#a65e32;margin-top:17px}.context-head>.context-blog-link:hover{background:#265c62}.context-card:focus-visible{outline:3px solid #f6a623}
+
+
+/* Civic participation: short, sourced actions, automatically hidden after their deadline. */
+.civic-participation{background:#fdfbf6;border-bottom:1px solid var(--line);padding:31px 0 39px}
+.civic-heading{display:flex;justify-content:space-between;align-items:baseline;gap:24px;margin-bottom:16px}
+.civic-heading h2{font:500 34px/1.1 var(--serif);letter-spacing:-.03em;margin:0;color:var(--green)}
+.civic-heading p{color:#63716a;font-size:12px;margin:0}
+.civic-actions-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.civic-action-card{border:1px solid #d9dfd5;background:#f7f9f3;padding:22px 25px}
+.civic-action-deadline{font-size:10px!important;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#965d43!important;margin:0 0 9px!important}
+.civic-action-card h3{font:500 24px/1.14 var(--serif);margin:0 0 9px;color:#203d32}
+.civic-action-card p{font-size:12px;line-height:1.6;color:#566a5f;margin:0 0 12px}
+.civic-action-card a{font-size:11px;font-weight:700;color:#235845;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:700px){.civic-heading{display:block}.civic-heading p{margin-top:5px}.civic-actions-grid{grid-template-columns:1fr}.civic-participation{padding:24px 0}}

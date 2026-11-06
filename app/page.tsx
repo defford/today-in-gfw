@@ -1,5 +1,6 @@
 import EventCalendar from "@/components/EventCalendar";
 import Stories from "@/components/Stories";
+import CivicActions from "@/components/CivicActions";
 import storiesData from "@/data/stories.json";
 import eventsData from "@/data/events.json";
 
@@ -51,6 +52,7 @@ export default function Page() {
       <a href="/bigger-picture">Meet the bigger picture <span aria-hidden="true">↗</span></a>
     </div></section>
     {today === "2026-10-28" && <section className="notice-banner"><div className="wrap notice-inner"><div className="notice-tag"><span className="notice-dot"></span> TODAY'S DEADLINE</div><p><strong>Scott Avenue housing consultation closes October 28.</strong> Residents can submit written comments to the Town's Development Department.</p><a href="https://grandfallswindsor.com/discretionary-use-application-scott-avenue/" target="_blank" rel="noopener noreferrer" className="notice-link">Official notice ↗</a></div></section>}
+    <CivicActions stories={storiesData.stories} today={today} />
     <section id="stories" className="section stories-section"><div className="wrap">
       
       <div className="section-title-row"><h2>The day's <em>headlines.</em></h2></div>

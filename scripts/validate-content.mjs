@@ -83,6 +83,11 @@ for (const item of cases) {
     check(['scheduled','occurred'].includes(milestone.state), `${id}: invalid milestone verification state`);
     check(sourceUrls.has(milestone.sourceUrl), `${id}: milestone needs a cited source`);
   }
+  check(Array.isArray(item.revisions) && item.revisions.length > 0, `${id}: missing revision history`);
+  for (const change of item.revisions ?? []) {
+    check(isISODate(change.date) && change.date <= item.lastChecked, `${id}: invalid revision date`);
+    check(['initial','update','correction'].includes(change.kind) && nonempty(change.note), `${id}: incomplete revision entry`);
+  }
   if (item.action) {
     check(nonempty(item.action.title) && nonempty(item.action.details) && isISODate(item.action.until), `${id}: invalid civic participation action`);
     check(sourceUrls.has(item.action.url), `${id}: action needs a cited primary source`);

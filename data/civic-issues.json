@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "edition": "2026-11-06",
+  "editorialNote": "Cases reflect documented public information, not assurances of approval or completion. A date marked 'scheduled' is not evidence an event happened. We update records when new evidence is verified.",
+  "issues": [
+    {
+      "slug": "lincoln-road-land-use",
+      "title": "Lincoln Road: land use and housing",
+      "theme": "Housing & public space",
+      "location": "Lincoln Road",
+      "status": "Public input period",
+      "summary": "Council has adopted proposed planning amendments that would redesignate recreation open space for residential use. A public hearing is scheduled, but the Town says it may be cancelled if no objection is filed.",
+      "whyItMatters": "The question is how additional housing might be balanced with existing recreation space and pedestrian connections. The final planning and site outcomes are not yet established.",
+      "stages": [
+        "Amendments proposed",
+        "Public input",
+        "Decision / registration",
+        "Development",
+        "Observed outcome"
+      ],
+      "currentStage": 1,
+      "lastChecked": "2026-11-06",
+      "nextCheck": "2026-11-17",
+      "nextToWatch": "Written representations are due November 16 at 4:30 p.m. A hearing is scheduled for November 18, 6:30–9 p.m., and may be cancelled if no objection is made.",
+      "known": [
+        "The amendments concern a change from Recreation Open Space to Urban Residential and RM-1 low- and medium-density multi-unit residential zoning.",
+        "The Town's October 22 notice identifies a public hearing and a procedure for written objections or representations."
+      ],
+      "openQuestions": [
+        "Will the November 18 hearing go ahead, and what objections or representations are formally received?",
+        "What final land-use amendment, if any, is registered after the hearing process?",
+        "What space, walking links or other public-realm features would a later development retain?"
+      ],
+      "milestones": [
+        {
+          "date": "2026-10-22",
+          "label": "Hearing notice published",
+          "detail": "The Town describes adopted planning amendments and the public hearing process.",
+          "state": "occurred",
+          "sourceUrl": "https://grandfallswindsor.com/notice-of-public-hearing-12/"
+        },
+        {
+          "date": "2026-11-16",
+          "label": "Written-submission deadline",
+          "detail": "Two copies of a signed written statement must reach the Town Clerk by 4:30 p.m.",
+          "state": "scheduled",
+          "sourceUrl": "https://grandfallswindsor.com/notice-of-public-hearing-12/"
+        },
+        {
+          "date": "2026-11-18",
+          "label": "Hearing scheduled",
+          "detail": "6:30–9 p.m. at the Fire Hall; subject to cancellation if no objection is filed.",
+          "state": "scheduled",
+          "sourceUrl": "https://grandfallswindsor.com/notice-of-public-hearing-12/"
+        }
+      ],
+      "action": {
+        "title": "Written representations",
+        "details": "See the Town's notice for the requirement to deposit two signed copies with the Town Clerk by 4:30 p.m. on November 16.",
+        "until": "2026-11-16",
+        "url": "https://grandfallswindsor.com/notice-of-public-hearing-12/"
+      },
+      "sources": [
+        {
+          "label": "Town of Grand Falls-Windsor — Notice of Public Hearing (October 22, 2026)",
+          "url": "https://grandfallswindsor.com/notice-of-public-hearing-12/",
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "slug": "scott-avenue-housing",
+      "title": "Scott Avenue: proposed multi-unit housing",
+      "theme": "Housing & planning",
+      "location": "Scott Avenue",
+      "status": "Decision not confirmed",
+      "summary": "The Town invited comment on a proposed multi-unit housing use for vacant land between Mill Road and Carmelite Road. The consultation deadline has passed; the published concept is illustrative, not a completed approval.",
+      "whyItMatters": "A proposal to add housing can change land use and neighbourhood services. Residents need to know whether an application advances, what is approved and what actually gets built.",
+      "stages": [
+        "Concept released",
+        "Public consultation",
+        "Council decision pending",
+        "Development",
+        "Observed outcome"
+      ],
+      "currentStage": 2,
+      "lastChecked": "2026-11-06",
+      "nextCheck": "2026-11-13",
+      "nextToWatch": "Look for an official Council decision, final application details, conditions or a development award. None is established by the original October 16 notice.",
+      "known": [
+        "The Town published a draft development concept as one possible option, alongside plans to seek developer interest.",
+        "The opportunity to submit comments closed October 28, 2026, according to the Town's notice."
+      ],
+      "openQuestions": [
+        "Did the Town receive comments that lead to changes in the proposed use?",
+        "Has Council made a recorded decision, or has any developer been selected?",
+        "How many units, and with what affordability, accessibility and servicing commitments, would any eventual project deliver?"
+      ],
+      "milestones": [
+        {
+          "date": "2026-10-16",
+          "label": "Discretionary-use notice published",
+          "detail": "An illustrative concept and a public consultation were announced.",
+          "state": "occurred",
+          "sourceUrl": "https://grandfallswindsor.com/discretionary-use-application-scott-avenue/"
+        },
+        {
+          "date": "2026-10-28",
+          "label": "Public-comment deadline",
+          "detail": "The Town's stated closing date for signed comments, concerns, objections or support.",
+          "state": "occurred",
+          "sourceUrl": "https://grandfallswindsor.com/discretionary-use-application-scott-avenue/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Town of Grand Falls-Windsor — Scott Avenue discretionary-use application (October 16, 2026)",
+          "url": "https://grandfallswindsor.com/discretionary-use-application-scott-avenue/",
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "slug": "municipal-by-election-2026",
+      "title": "2026 municipal by-election",
+      "theme": "Local democracy",
+      "location": "Town-wide",
+      "status": "Election scheduled",
+      "summary": "Grand Falls-Windsor is holding a by-election for one Council seat on December 1. Nominations are by appointment on November 9; advance polling is scheduled for November 21.",
+      "whyItMatters": "Residents will select a Council representative. The tracker will follow nominations, polling information, the declared result and the transition to a seated councillor.",
+      "stages": [
+        "By-election called",
+        "Nominations",
+        "Advance voting",
+        "Election day",
+        "Official result"
+      ],
+      "currentStage": 0,
+      "lastChecked": "2026-11-06",
+      "nextCheck": "2026-11-10",
+      "nextToWatch": "Candidate nominations are scheduled for November 9, advance polling for November 21, and election day for December 1. Check the Town's election page for current voting locations and rules.",
+      "known": [
+        "The Town has published dates and nomination-by-appointment requirements.",
+        "The Town lists the advance poll at Windsor Pentecostal Church on King Street; this is the venue name, not a separate municipality."
+      ],
+      "openQuestions": [
+        "Who will be formally confirmed as candidates after nomination day?",
+        "Where will regular polling stations be located?",
+        "What official result will be declared after the vote?"
+      ],
+      "milestones": [
+        {
+          "date": "2026-10-13",
+          "label": "By-election announced",
+          "detail": "The Town called a December 1 municipal by-election.",
+          "state": "occurred",
+          "sourceUrl": "https://grandfallswindsor.com/municipal-by-election-2026/"
+        },
+        {
+          "date": "2026-11-09",
+          "label": "Nominations scheduled",
+          "detail": "8 a.m.–8 p.m., by appointment at Town Hall.",
+          "state": "scheduled",
+          "sourceUrl": "https://grandfallswindsor.com/municipal-by-election-2026/"
+        },
+        {
+          "date": "2026-11-21",
+          "label": "Advance poll scheduled",
+          "detail": "8 a.m.–8 p.m.; see the Town's election page for venue and voter requirements.",
+          "state": "scheduled",
+          "sourceUrl": "https://grandfallswindsor.com/municipal-by-election-2026/"
+        },
+        {
+          "date": "2026-12-01",
+          "label": "Election day",
+          "detail": "8 a.m.–8 p.m.; regular polling locations are subject to the Town's published updates.",
+          "state": "scheduled",
+          "sourceUrl": "https://grandfallswindsor.com/municipal-by-election-2026/"
+        }
+      ],
+      "action": {
+        "title": "Prospective candidates",
+        "details": "Nomination appointments for November 9 must be arranged by contacting the Town; see eligibility and contact details on the official page.",
+        "until": "2026-11-09",
+        "url": "https://grandfallswindsor.com/municipal-by-election-2026/"
+      },
+      "sources": [
+        {
+          "label": "Town of Grand Falls-Windsor — Municipal By-Election 2026",
+          "url": "https://grandfallswindsor.com/municipal-by-election-2026/",
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "slug": "highway-twinning-gfw",
+      "title": "Highway twinning: land and first-phase tender",
+      "theme": "Roads & infrastructure",
+      "location": "Trans-Canada Highway near Grand Falls-Windsor",
+      "status": "First-phase tender issued",
+      "summary": "The Province has announced land expropriation for the highway-twinning project and issued a first-phase subgrade tender for 6.2 kilometres beginning near Grand Falls-Windsor. An award and resulting local impacts require separate verification.",
+      "whyItMatters": "The project concerns highway safety and construction activity, while raising questions about recreation access, affected land and whether regional infrastructure spending creates lasting local benefit.",
+      "stages": [
+        "Project announced",
+        "Land required",
+        "Tender issued",
+        "Construction",
+        "Observed outcome"
+      ],
+      "currentStage": 2,
+      "lastChecked": "2026-11-06",
+      "nextCheck": "2026-11-13",
+      "nextToWatch": "Monitor the provincial tender outcome, award and construction schedule, and any confirmed change to local recreation access. Do not infer closures or local contract awards from the original releases.",
+      "known": [
+        "The Province announced expropriation of land along the south side of the Trans-Canada Highway on October 16.",
+        "The October 22 provincial release describes a tender for 6.2 kilometres of initial subgrade work."
+      ],
+      "openQuestions": [
+        "Which contractor, if any, receives the first-phase award and on what published terms?",
+        "Are any recreation routes or access points actually affected, and what mitigation is planned?",
+        "What local employment or procurement outcomes can later be documented?"
+      ],
+      "milestones": [
+        {
+          "date": "2026-10-16",
+          "label": "Expropriation announcement",
+          "detail": "The Province says required land is being expropriated for highway work.",
+          "state": "occurred",
+          "sourceUrl": "https://www.gov.nl.ca/releases/2026/ti/1016n05/"
+        },
+        {
+          "date": "2026-10-22",
+          "label": "First-phase tender announced",
+          "detail": "The Province announces a 6.2-kilometre subgrade tender.",
+          "state": "occurred",
+          "sourceUrl": "https://www.gov.nl.ca/releases/2026/ti/1022n02/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Government of Newfoundland and Labrador — Land expropriation release (October 16, 2026)",
+          "url": "https://www.gov.nl.ca/releases/2026/ti/1016n05/",
+          "checked": "2026-11-06"
+        },
+        {
+          "label": "Government of Newfoundland and Labrador — First-phase tender release (October 22, 2026)",
+          "url": "https://www.gov.nl.ca/releases/2026/ti/1022n02/",
+          "checked": "2026-11-06"
+        }
+      ]
+    }
+  ]
+}

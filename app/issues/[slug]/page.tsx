@@ -70,8 +70,16 @@ export default async function CivicIssueDetail({params}:{params:Promise<{slug:st
             <div className="issue-timeline-text"><h3>{item.label}</h3><p>{item.detail}</p><a href={item.sourceUrl} target="_blank" rel="noopener noreferrer">Original source ↗</a></div>
           </li>)}</ol>
         </section>
+        <section className="issue-detail-section issue-revision-section">
+          <span className="issue-kicker">05 / THE RESEARCH RECORD</span><h2>What changed in our account.</h2>
+          <ol>{issue.revisions.map((entry,index)=><li key={entry.date+entry.kind+index}>
+            <time dateTime={entry.date}>{issueDate(entry.date)}</time>
+            <span>{entry.kind === "correction" ? "Correction" : entry.kind === "initial" ? "Initial record" : "Revised"}</span>
+            <p>{entry.note}</p>
+          </li>)}</ol>
+        </section>
         <section className="issue-detail-section issue-source-section">
-          <span className="issue-kicker">05 / VERIFY IT YOURSELF</span><h2>Public sources.</h2>
+          <span className="issue-kicker">06 / VERIFY IT YOURSELF</span><h2>Public sources.</h2>
           <p>These links support the documented facts above. They do not establish a final outcome unless the linked record expressly says so.</p>
           <ol>{issue.sources.map(source=><li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.label} ↗</a><small>Checked {issueDate(source.checked)}</small></li>)}</ol>
         </section>

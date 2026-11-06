@@ -1,9 +1,11 @@
 import Link from "next/link";
+import MobileMenu from "@/components/MobileMenu";
 export default function JournalNav({active = "journal"}: {active?: "journal" | "issues" | "none"}){
  return <><div className="journal-topline"><div className="wrap"><span>AN INDEPENDENT CIVIC JOURNAL</span><span>GRAND FALLS-WINDSOR · NEWFOUNDLAND & LABRADOR</span></div></div>
  <header className="journal-nav"><div className="wrap journal-nav-inside">
    <Link className="journal-logo" href="/"><img src="/assets/river-mark.svg" width="38" height="38" alt=""/><span>TODAY <em>IN</em> GFW<b>.</b></span></Link>
    <nav aria-label="Journal navigation"><Link href="/">Today's briefing</Link><Link href="/bigger-picture" aria-current={active === "journal" ? "page" : undefined}>The bigger picture</Link><Link href="/issues" aria-current={active === "issues" ? "page" : undefined}>Civic tracker</Link><Link href="/#events">Events</Link></nav>
+   <MobileMenu />
    <Link className="journal-nav-home" href="/">Back to today <span>↗</span></Link>
  </div></header></>
 }

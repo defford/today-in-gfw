@@ -15,7 +15,12 @@
       "source": "Town of Grand Falls-Windsor",
       "sourceUrl": "https://grandfallswindsor.com/municipal-by-election-2026/",
       "deadline": "November 9",
-      "readTime": "2 min"
+      "readTime": "2 min",
+      "action": {
+        "deadlineLabel": "Nominations · Monday, November 9",
+        "text": "Thinking of running for Town Council? Call 709-489-0407 to arrange a nomination appointment for November 9, 8 a.m.–8 p.m. Check the Town's candidate requirements.",
+        "until": "2026-11-09"
+      }
     },
     {
       "id": "STORY-08",
@@ -44,7 +49,12 @@
       "source": "Town of Grand Falls-Windsor",
       "sourceUrl": "https://grandfallswindsor.com/notice-of-public-hearing-12/",
       "deadline": "November 16, 4:30 p.m.",
-      "readTime": "2 min"
+      "readTime": "2 min",
+      "action": {
+        "deadlineLabel": "Written submissions · November 16, 4:30 p.m.",
+        "text": "To make an objection or representation on the proposed Lincoln Road rezoning, deposit two copies of a signed written statement with the Town Clerk by the deadline. Check the Town's notice for hearing details.",
+        "until": "2026-11-16"
+      }
     },
     {
       "id": "STORY-07",

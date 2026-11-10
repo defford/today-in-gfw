@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-11-08",
-  "provenance": "Exploits Events Registry (read 2026-11-08; GFW-only filtered; original event post linked; no outside-town listings)",
-  "totalActiveDated": 11,
+  "asOf": "2026-11-10",
+  "provenance": "Exploits Events Registry (read 2026-11-10; GFW-only filtered; original links where available; screenshot-sourced events identified; no outside-town listings)",
+  "totalActiveDated": 12,
   "events": [
     {
       "id": "EVT-001",
@@ -665,6 +665,26 @@
       "sourceType": "flyer (direct visual read)",
       "lastVerified": "2026-11-08",
       "notes": "Tables still available; all tables on the lower level. Listing from community flyer; organizer confirmation not independently established."
+    },
+    {
+      "id": "EVT-120",
+      "title": "Addictions Awareness Walk and Scavenger Hunt",
+      "dates": [
+        "2026-11-16"
+      ],
+      "multiday": null,
+      "weekday": null,
+      "time": "6:00 PM",
+      "venue": "First Step Home, 83 King Street, Grand Falls-Windsor",
+      "town": "Grand Falls-Windsor",
+      "price": null,
+      "category": "Community",
+      "recurring": false,
+      "recurrenceDetail": null,
+      "sourceUrl": null,
+      "sourceType": "screenshot supplied to registry curator 2026-11-10",
+      "lastVerified": "2026-11-10",
+      "notes": "Refreshments provided. Event information supplied as a screenshot to the independent registry; no public original-post link available."
     }
   ]
 }

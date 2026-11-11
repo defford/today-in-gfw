@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-10",
-  "provenance": "Exploits Events Registry (read 2026-11-10; GFW-only filtered; original links where available; screenshot-sourced events identified; no outside-town listings)",
+  "asOf": "2026-11-11",
+  "provenance": "Exploits Events Registry (read 2026-11-11; GFW-only filtered; updated Remembrance Day ceremony venue/time per curator's Nov 11 verified registry; other entries preserved)",
   "totalActiveDated": 12,
   "events": [
     {
@@ -293,17 +293,17 @@
       ],
       "multiday": null,
       "weekday": null,
-      "time": null,
-      "venue": "Legion Branch 012, GFW",
+      "time": "Parade 10:45am; participants assemble 10:15am",
+      "venue": "Beaumont Hamel Armoury, Memorial Avenue (parade to Cenotaph)",
       "town": "Grand Falls-Windsor",
       "price": null,
       "category": "Community",
       "recurring": false,
       "recurrenceDetail": null,
-      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1467403142156169/",
-      "sourceType": "Legion upcoming-events flyer",
-      "lastVerified": "2026-10-22",
-      "notes": "Time not stated on flyer"
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1489144833315333/",
+      "sourceType": "updated community flyer/post (direct visual read by registry curator)",
+      "lastVerified": "2026-11-11",
+      "notes": "Weather-related assembly location change announced Nov 10. Parade starts at Armoury at 10:45am, participants assemble 10:15am; proceeds to Cenotaph. Light refreshments afterward at Legion Branch 12. Verify organizer update before travelling."
     },
     {
       "id": "EVT-043",

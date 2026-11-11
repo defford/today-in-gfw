@@ -152,10 +152,10 @@
       "currentStage": 2,
       "lastChecked": "2026-11-11",
       "nextCheck": "2026-11-13",
-      "nextToWatch": "Confirm the candidates and regular polling stations when the Town publishes them. Advance voting is scheduled November 21, 8 a.m.–8 p.m., at Windsor Pentecostal Church, 97 King Street; election day is December 1.",
+      "nextToWatch": "Confirm the candidates and regular polling stations when the Town publishes them. Advance voting is scheduled November 21, 8 a.m.–8 p.m., at 97 King Street (venue named on the Town's election page); election day is December 1.",
       "known": [
         "The Town's November 9 nomination deadline has passed; the published election page has not yet supplied a final candidate list.",
-        "The advance poll is scheduled for November 21, 8 a.m.–8 p.m., at Windsor Pentecostal Church (97 King Street). The Town also describes voter and proxy rules on its official election page."
+        "The advance poll is scheduled for November 21, 8 a.m.–8 p.m., at 97 King Street (see the Town's election page for the venue name). The Town also describes voter and proxy rules on its official election page."
       ],
       "openQuestions": [
         "Who will be formally confirmed as candidates after nomination day?",
@@ -194,7 +194,7 @@
       ],
       "action": {
         "title": "Advance voting November 21",
-        "details": "Eligible residents can vote November 21 from 8 a.m. to 8 p.m. at Windsor Pentecostal Church, 97 King Street. Check the Town's election page for voting rules and updated polling locations.",
+        "details": "Eligible residents can vote November 21 from 8 a.m. to 8 p.m. at 97 King Street (see the Town's page for the venue name). Check the Town's election page for voting rules and updated polling locations.",
         "until": "2026-11-21",
         "url": "https://grandfallswindsor.com/municipal-by-election-2026/"
       },

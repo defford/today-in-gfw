@@ -126,7 +126,8 @@ const contemporaryPaths = [
   'app/credits/page.tsx', 'app/bigger-picture/page.tsx', 'app/issues/page.tsx',
   'app/issues/[slug]/page.tsx', 'data/civic-issues.json', 'data/stories.json'
 ];
-const historicalPlaceName = /\bGrand Falls\b(?!-Windsor)|(?<!Grand Falls-)(?<!grand-falls-)\bWindsor\b/i;
+// Preserve the official name of Windsor Pentecostal Church; it does not describe a separate municipality.
+const historicalPlaceName = /\bGrand Falls\b(?!-Windsor)|(?<!Grand Falls-)(?<!grand-falls-)\bWindsor\b(?! Pentecostal Church\b)/i;
 for (const path of contemporaryPaths) {
   const copy = readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
   check(!historicalPlaceName.test(copy), `${path}: use Grand Falls-Windsor, not a separate present-day town name`);

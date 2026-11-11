@@ -1,25 +1,25 @@
 {
-  "editionDate": "2026-11-05",
-  "editionTitle": "Thursday, November 5, 2026",
-  "lastReviewed": "2026-11-05",
+  "editionDate": "2026-11-10",
+  "editionTitle": "Tuesday, November 10, 2026",
+  "lastReviewed": "2026-11-10",
   "stories": [
     {
       "id": "STORY-06",
       "date": "2026-10-13",
-      "updated": "2026-11-05",
+      "updated": "2026-11-10",
       "topic": "Local democracy",
-      "importance": "Nomination day November 9",
-      "title": "Council by-election: nominations require an appointment",
-      "summary": "Grand Falls-Windsor will elect a councillor on December 1. Nomination day is Monday, November 9, from 8 a.m. to 8 p.m. at Town Hall, 5 High Street; prospective candidates must book an appointment at 709-489-0407. Advance voting is November 21. The Town's election page also explains candidate eligibility, voter requirements and proxy voting.",
-      "why": "A council vacancy is filled by residents choosing a representative. The immediate practical deadline is for prospective candidates; the Town has yet to publish all regular polling locations.",
+      "importance": "Advance voting November 21",
+      "title": "Council by-election: advance voting is November 21",
+      "summary": "The November 9 nomination period has ended. Grand Falls-Windsor residents can vote in the December 1 council by-election, with advance voting scheduled for Saturday, November 21, 8 a.m.–8 p.m., at Windsor Pentecostal Church, 97 King Street. The Town's election page explains voting eligibility and proxy voting; regular polling locations have not yet been published there.",
+      "why": "With nominations closed, the next actionable milestone is advance voting. The Town has not yet posted the final candidate list or regular polling locations on its election page; residents should check for updates.",
       "source": "Town of Grand Falls-Windsor",
       "sourceUrl": "https://grandfallswindsor.com/municipal-by-election-2026/",
-      "deadline": "November 9",
+      "deadline": "November 21 advance poll",
       "readTime": "2 min",
       "action": {
-        "deadlineLabel": "Nominations · Monday, November 9",
-        "text": "Thinking of running for Town Council? Call 709-489-0407 to arrange a nomination appointment for November 9, 8 a.m.–8 p.m. Check the Town's candidate requirements.",
-        "until": "2026-11-09"
+        "deadlineLabel": "Advance poll · November 21",
+        "text": "Eligible residents can vote at Windsor Pentecostal Church, 97 King Street, from 8 a.m. to 8 p.m. on November 21. Check the Town's election page for requirements and updates.",
+        "until": "2026-11-21"
       }
     },
     {

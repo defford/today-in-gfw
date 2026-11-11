@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "edition": "2026-11-06",
+  "edition": "2026-11-11",
   "editorialNote": "Cases reflect documented public information, not assurances of approval or completion. A date marked 'scheduled' is not evidence an event happened. We update records when new evidence is verified.",
   "issues": [
     {
@@ -139,8 +139,8 @@
       "title": "2026 municipal by-election",
       "theme": "Local democracy",
       "location": "Town-wide",
-      "status": "Election scheduled",
-      "summary": "Grand Falls-Windsor is holding a by-election for one Council seat on December 1. Nominations are by appointment on November 9; advance polling is scheduled for November 21.",
+      "status": "Advance poll scheduled; candidate list unconfirmed",
+      "summary": "The November 9 nomination period for the December 1 council by-election has passed. The Town's current election page lists advance voting for November 21, but does not yet provide the final candidate list or regular polling station locations.",
       "whyItMatters": "Residents will select a Council representative. The tracker will follow nominations, polling information, the declared result and the transition to a seated councillor.",
       "stages": [
         "By-election called",
@@ -149,13 +149,13 @@
         "Election day",
         "Official result"
       ],
-      "currentStage": 0,
-      "lastChecked": "2026-11-06",
-      "nextCheck": "2026-11-10",
-      "nextToWatch": "Candidate nominations are scheduled for November 9, advance polling for November 21, and election day for December 1. Check the Town's election page for current voting locations and rules.",
+      "currentStage": 2,
+      "lastChecked": "2026-11-11",
+      "nextCheck": "2026-11-13",
+      "nextToWatch": "Confirm the candidates and regular polling stations when the Town publishes them. Advance voting is scheduled November 21, 8 a.m.–8 p.m., at 97 King Street (venue named on the Town's election page); election day is December 1.",
       "known": [
-        "The Town has published dates and nomination-by-appointment requirements.",
-        "The Town has also published advance-poll information and its current guidance on voter identification and proxy applications."
+        "The Town's November 9 nomination deadline has passed; the published election page has not yet supplied a final candidate list.",
+        "The advance poll is scheduled for November 21, 8 a.m.–8 p.m., at 97 King Street (see the Town's election page for the venue name). The Town also describes voter and proxy rules on its official election page."
       ],
       "openQuestions": [
         "Who will be formally confirmed as candidates after nomination day?",
@@ -193,16 +193,16 @@
         }
       ],
       "action": {
-        "title": "Prospective candidates",
-        "details": "Nomination appointments for November 9 must be arranged by contacting the Town; see eligibility and contact details on the official page.",
-        "until": "2026-11-09",
+        "title": "Advance voting November 21",
+        "details": "Eligible residents can vote November 21 from 8 a.m. to 8 p.m. at 97 King Street (see the Town's page for the venue name). Check the Town's election page for voting rules and updated polling locations.",
+        "until": "2026-11-21",
         "url": "https://grandfallswindsor.com/municipal-by-election-2026/"
       },
       "sources": [
         {
           "label": "Town of Grand Falls-Windsor — Municipal By-Election 2026",
           "url": "https://grandfallswindsor.com/municipal-by-election-2026/",
-          "checked": "2026-11-06"
+          "checked": "2026-11-11"
         }
       ],
       "revisions": [
@@ -210,6 +210,11 @@
           "date": "2026-11-06",
           "kind": "initial",
           "note": "Initial public tracker record assembled from the cited primary notices. Later steps and outcomes remain unconfirmed until independently verified."
+        },
+        {
+          "date": "2026-11-11",
+          "kind": "update",
+          "note": "Expired November 9 nomination action replaced with the sourced November 21 advance-poll opportunity. Candidate list and regular polling stations not yet verified; the nomination milestone remains 'scheduled' rather than being marked occurred without evidence."
         }
       ]
     },

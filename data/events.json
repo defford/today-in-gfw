@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-11-11",
-  "provenance": "Exploits Events Registry (read 2026-11-11; GFW-only filtered; updated Remembrance Day ceremony venue/time per curator's Nov 11 verified registry; other entries preserved)",
-  "totalActiveDated": 12,
+  "asOf": "2026-11-13",
+  "provenance": "Exploits Events Registry (read 2026-11-13; Grand Falls-Windsor-only; added EVT-121 from curator's Nov 13 listing; preserved all existing events)",
+  "totalActiveDated": 11,
   "events": [
     {
       "id": "EVT-001",
@@ -685,6 +685,26 @@
       "sourceType": "screenshot supplied to registry curator 2026-11-10",
       "lastVerified": "2026-11-10",
       "notes": "Refreshments provided. Event information supplied as a screenshot to the independent registry; no public original-post link available."
+    },
+    {
+      "id": "EVT-121",
+      "title": "Re-Wind @ Kelly's Pub",
+      "dates": [
+        "2026-11-14"
+      ],
+      "multiday": null,
+      "weekday": null,
+      "time": "11:00 PM",
+      "venue": "Kelly's Pub",
+      "town": "Grand Falls-Windsor",
+      "price": null,
+      "category": "Live Music",
+      "recurring": false,
+      "recurrenceDetail": null,
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1490860289810454/",
+      "sourceType": "comment (Cordell Bowers) 2026-11-12",
+      "lastVerified": "2026-11-13",
+      "notes": "Announced in a comment on the weekend roundup; not independently confirmed with venue."
     }
   ]
 }

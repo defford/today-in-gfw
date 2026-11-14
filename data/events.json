@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-11-13",
-  "provenance": "Exploits Events Registry (read 2026-11-13; Grand Falls-Windsor-only; added EVT-121 from curator's Nov 13 listing; preserved all existing events)",
-  "totalActiveDated": 11,
+  "asOf": "2026-11-14",
+  "provenance": "Exploits Events Registry (read 2026-11-14; GFW-only; added EVT-124 Nov 29 session from curator-verified flyer; retained existing future events and stable IDs; Dec 6 session outside 21-day window)",
+  "totalActiveDated": 9,
   "events": [
     {
       "id": "EVT-001",
@@ -705,6 +705,26 @@
       "sourceType": "comment (Cordell Bowers) 2026-11-12",
       "lastVerified": "2026-11-13",
       "notes": "Announced in a comment on the weekend roundup; not independently confirmed with venue."
+    },
+    {
+      "id": "EVT-124",
+      "title": "Christmas Donation — Cooking Class (EAT Restaurant)",
+      "dates": [
+        "2026-11-29"
+      ],
+      "multiday": null,
+      "weekday": null,
+      "time": "9:00 AM-1:00 PM",
+      "venue": "GFW Community Kitchen, St. Alban's Anglican Church, 13 Masters Avenue, Grand Falls-Windsor",
+      "town": "Grand Falls-Windsor",
+      "price": "$110 (donated)",
+      "category": "Community",
+      "recurring": false,
+      "recurrenceDetail": null,
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1491984886364661/",
+      "sourceType": "flyer (direct visual read by registry curator)",
+      "lastVerified": "2026-11-14",
+      "notes": "EAT Restaurant fundraising class for GFW Community Kitchen Christmas outreach; 12 places per class; contact EAT Restaurant to book. Another session listed for Dec 6 (outside current 21-day calendar window). Listing from community flyer; availability not independently confirmed."
     }
   ]
 }

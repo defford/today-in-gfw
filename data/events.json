@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-11-15",
-  "provenance": "Exploits Events Registry (read 2026-11-15; Grand Falls-Windsor-only; EVT-124 Nov 29 and Dec 6 sessions from curator-verified flyer, with Dec 6 now inside inclusive 21-day window; retained existing future events and stable IDs)",
-  "totalActiveDated": 9,
+  "asOf": "2026-11-16",
+  "provenance": "Exploits Events Registry (read 2026-11-16; GFW venue-filtered; new EVT-125–130 community-comment entries, unconfirmed where indicated; preserved existing IDs and entries)",
+  "totalActiveDated": 12,
   "events": [
     {
       "id": "EVT-001",
@@ -726,6 +726,124 @@
       "sourceType": "flyer (direct visual read by registry curator)",
       "lastVerified": "2026-11-15",
       "notes": "EAT Restaurant fundraising cooking classes for GFW Community Kitchen Christmas outreach; 12 places per class; contact EAT Restaurant to book. Both Nov 29 and Dec 6 sessions shown on community flyer; booking availability not independently confirmed."
+    },
+    {
+      "id": "EVT-125",
+      "title": "Mike Snelgrove @ Kelly's Pub",
+      "dates": [
+        "2026-11-20"
+      ],
+      "multiday": null,
+      "weekday": null,
+      "time": "5:30-8:30pm",
+      "venue": "Kelly's Pub",
+      "town": "Grand Falls-Windsor",
+      "price": null,
+      "category": "Live Music",
+      "recurring": false,
+      "recurrenceDetail": null,
+      "sourceUrl": null,
+      "sourceType": "comment (Michael Snelgrove) 2026-11-15",
+      "lastVerified": "2026-11-16",
+      "notes": "Announced in a group comment shared by Daniel 2026-11-15: Mike Snelgrove at Kelly's on Friday Nov 20, 5:30-8:30pm. Fills Kelly's generic Friday 5:30pm slot (EVT-067) that week. Community-comment listing; venue confirmation not independently established."
+    },
+    {
+      "id": "EVT-126",
+      "title": "Landlocked @ The Terrace",
+      "dates": [
+        "2026-11-21"
+      ],
+      "multiday": null,
+      "weekday": null,
+      "time": null,
+      "venue": "The Terrace Pub & Patio",
+      "town": "Grand Falls-Windsor",
+      "price": null,
+      "category": "Live Music",
+      "recurring": false,
+      "recurrenceDetail": null,
+      "sourceUrl": null,
+      "sourceType": "comment (Adam Baxter) 2026-11-15",
+      "lastVerified": "2026-11-16",
+      "notes": "Announced in a group comment shared by Daniel 2026-11-15: Landlocked at the Terrace Sat Nov 21. No time stated in the comment. Community-comment listing; venue confirmation not independently established."
+    },
+    {
+      "id": "EVT-127",
+      "title": "Fickle Strings @ Mt. Peyton",
+      "dates": [
+        "2026-11-20"
+      ],
+      "multiday": null,
+      "weekday": null,
+      "time": null,
+      "venue": "Mt. Peyton",
+      "town": "Grand Falls-Windsor",
+      "price": null,
+      "category": "Live Music",
+      "recurring": false,
+      "recurrenceDetail": null,
+      "sourceUrl": null,
+      "sourceType": "comment (Judy Saunders) 2026-11-15",
+      "lastVerified": "2026-11-16",
+      "notes": "Announced in a group comment shared by Daniel 2026-11-15: Fickle Strings on Friday at the Mt. Peyton. No time stated in the comment. Community-comment listing; venue confirmation not independently established."
+    },
+    {
+      "id": "EVT-128",
+      "title": "Craft Fair (Forest Park Primary)",
+      "dates": [
+        "2026-11-21"
+      ],
+      "multiday": null,
+      "weekday": null,
+      "time": "10:00am-1:00pm",
+      "venue": "Forest Park Primary",
+      "town": "Grand Falls-Windsor",
+      "price": null,
+      "category": "Markets & Fairs",
+      "recurring": false,
+      "recurrenceDetail": null,
+      "sourceUrl": null,
+      "sourceType": "comment (Amanda Mercer) 2026-11-15",
+      "lastVerified": "2026-11-16",
+      "notes": "Announced in a group comment shared by Daniel 2026-11-15: craft fair at Forest Park Primary, Saturday 10-1. Community-comment listing; venue confirmation not independently established."
+    },
+    {
+      "id": "EVT-129",
+      "title": "Yoga with Michelle Critch",
+      "dates": [],
+      "multiday": null,
+      "weekday": 0,
+      "time": "Mon 5:30-6:30pm; Wed 8:15-9:15am; Thu (Men's) 7:15-8:15pm; Fri 12:10-12:50pm",
+      "venue": "Holy Trinity Anglican Church parish hall",
+      "town": "Grand Falls-Windsor",
+      "price": null,
+      "category": "Community",
+      "recurring": true,
+      "recurrenceDetail": "Weekly: Mon 5:30-6:30pm, Wed 8:15-9:15am, Thu Men's 7:15-8:15pm, Fri 12:10-12:50pm (multiple weekly days; see time schedule)",
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1494379456125204/",
+      "sourceType": "comment (Michelle Critch) 2026-11-16",
+      "lastVerified": "2026-11-16",
+      "notes": "Yoga sessions with Michelle Critch; announced in a comment on the Nov 15-21 week-ahead post. Community-comment listing; venue confirmation not independently established."
+    },
+    {
+      "id": "EVT-130",
+      "title": "Live Music: Dave and Micole",
+      "dates": [
+        "2026-11-20"
+      ],
+      "multiday": null,
+      "weekday": null,
+      "time": "Friday evening (no time stated)",
+      "venue": "Legion Branch 012, GFW",
+      "town": "Grand Falls-Windsor",
+      "price": null,
+      "category": "Live Music",
+      "recurring": false,
+      "recurrenceDetail": null,
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1494379456125204/",
+      "sourceType": "comment (Elaine Smith) 2026-11-16",
+      "lastVerified": "2026-11-16",
+      "notes": "Announced in a comment on the Nov 15-21 week-ahead post: Dave and Micole at the Legion Friday evening. No time stated. Community-comment listing; venue confirmation not independently established."
     }
   ]
 }

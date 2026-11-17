@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "edition": "2026-11-11",
+  "edition": "2026-11-12",
   "editorialNote": "Cases reflect documented public information, not assurances of approval or completion. A date marked 'scheduled' is not evidence an event happened. We update records when new evidence is verified.",
   "issues": [
     {
@@ -139,8 +139,8 @@
       "title": "2026 municipal by-election",
       "theme": "Local democracy",
       "location": "Town-wide",
-      "status": "Advance poll scheduled; candidate list unconfirmed",
-      "summary": "The November 9 nomination period for the December 1 council by-election has passed. The Town's current election page lists advance voting for November 21, but does not yet provide the final candidate list or regular polling station locations.",
+      "status": "Four candidates confirmed; advance poll scheduled",
+      "summary": "The Town's official election page now names four candidates for the December 1 council by-election: David (Pot) Canning, Andrew Little, Jamie Marshall and Wayde Thompson. Advance voting is November 21; regular polling locations are still pending publication.",
       "whyItMatters": "Residents will select a Council representative. The tracker will follow nominations, polling information, the declared result and the transition to a seated councillor.",
       "stages": [
         "By-election called",
@@ -150,15 +150,14 @@
         "Official result"
       ],
       "currentStage": 2,
-      "lastChecked": "2026-11-11",
-      "nextCheck": "2026-11-13",
-      "nextToWatch": "Confirm the candidates and regular polling stations when the Town publishes them. Advance voting is scheduled November 21, 8 a.m.–8 p.m., at 97 King Street (venue named on the Town's election page); election day is December 1.",
+      "lastChecked": "2026-11-12",
+      "nextCheck": "2026-11-16",
+      "nextToWatch": "Monitor regular polling station announcements and candidate information; advance poll is November 21, 8 a.m.–8 p.m., at Windsor Pentecostal Church, 97 King Street.",
       "known": [
-        "The Town's November 9 nomination deadline has passed; the published election page has not yet supplied a final candidate list.",
+        "The Town has published four official nominees: David (Pot) Canning, Andrew Little, Jamie Marshall and Wayde Thompson. Nominations closed after November 9.",
         "The advance poll is scheduled for November 21, 8 a.m.–8 p.m., at 97 King Street (see the Town's election page for the venue name). The Town also describes voter and proxy rules on its official election page."
       ],
       "openQuestions": [
-        "Who will be formally confirmed as candidates after nomination day?",
         "Where will regular polling stations be located?",
         "What official result will be declared after the vote?"
       ],
@@ -174,7 +173,7 @@
           "date": "2026-11-09",
           "label": "Nominations scheduled",
           "detail": "8 a.m.–8 p.m., by appointment at Town Hall.",
-          "state": "scheduled",
+          "state": "occurred",
           "sourceUrl": "https://grandfallswindsor.com/municipal-by-election-2026/"
         },
         {
@@ -202,7 +201,7 @@
         {
           "label": "Town of Grand Falls-Windsor — Municipal By-Election 2026",
           "url": "https://grandfallswindsor.com/municipal-by-election-2026/",
-          "checked": "2026-11-11"
+          "checked": "2026-11-12"
         }
       ],
       "revisions": [
@@ -215,6 +214,11 @@
           "date": "2026-11-11",
           "kind": "update",
           "note": "Expired November 9 nomination action replaced with the sourced November 21 advance-poll opportunity. Candidate list and regular polling stations not yet verified; the nomination milestone remains 'scheduled' rather than being marked occurred without evidence."
+        },
+        {
+          "date": "2026-11-12",
+          "kind": "update",
+          "note": "Town election page now publishes the official four-candidate list; nomination milestone marked occurred. Regular polling locations remain unannounced."
         }
       ]
     },

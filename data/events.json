@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-11-16",
-  "provenance": "Exploits Events Registry (read 2026-11-16; GFW venue-filtered; new EVT-125–130 community-comment entries, unconfirmed where indicated; preserved existing IDs and entries)",
-  "totalActiveDated": 12,
+  "asOf": "2026-11-17",
+  "provenance": "Exploits Events Registry (read 2026-11-17; Grand Falls-Windsor-only; corrected EVT-130 against Nov 17 curator flyer review; added EVT-132 and EVT-133; community-comment entries marked unconfirmed; retained existing IDs and future events)",
+  "totalActiveDated": 13,
   "events": [
     {
       "id": "EVT-001",
@@ -744,7 +744,7 @@
       "recurrenceDetail": null,
       "sourceUrl": null,
       "sourceType": "comment (Michael Snelgrove) 2026-11-15",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "notes": "Announced in a group comment shared by Daniel 2026-11-15: Mike Snelgrove at Kelly's on Friday Nov 20, 5:30-8:30pm. Fills Kelly's generic Friday 5:30pm slot (EVT-067) that week. Community-comment listing; venue confirmation not independently established."
     },
     {
@@ -764,7 +764,7 @@
       "recurrenceDetail": null,
       "sourceUrl": null,
       "sourceType": "comment (Adam Baxter) 2026-11-15",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "notes": "Announced in a group comment shared by Daniel 2026-11-15: Landlocked at the Terrace Sat Nov 21. No time stated in the comment. Community-comment listing; venue confirmation not independently established."
     },
     {
@@ -784,7 +784,7 @@
       "recurrenceDetail": null,
       "sourceUrl": null,
       "sourceType": "comment (Judy Saunders) 2026-11-15",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "notes": "Announced in a group comment shared by Daniel 2026-11-15: Fickle Strings on Friday at the Mt. Peyton. No time stated in the comment. Community-comment listing; venue confirmation not independently established."
     },
     {
@@ -804,7 +804,7 @@
       "recurrenceDetail": null,
       "sourceUrl": null,
       "sourceType": "comment (Amanda Mercer) 2026-11-15",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "notes": "Announced in a group comment shared by Daniel 2026-11-15: craft fair at Forest Park Primary, Saturday 10-1. Community-comment listing; venue confirmation not independently established."
     },
     {
@@ -822,18 +822,18 @@
       "recurrenceDetail": "Weekly Mondays, Wednesdays, Thursdays and Fridays; see listed day-specific times",
       "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1494379456125204/",
       "sourceType": "comment (Michelle Critch) 2026-11-16",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "notes": "Yoga sessions with Michelle Critch; announced in a comment on the Nov 15-21 week-ahead post. Community-comment listing; venue confirmation not independently established."
     },
     {
       "id": "EVT-130",
-      "title": "Live Music: Dave and Micole",
+      "title": "Live Music: Dave and Nicole",
       "dates": [
         "2026-11-20"
       ],
       "multiday": null,
       "weekday": null,
-      "time": "Friday evening (no time stated)",
+      "time": "7:00-9:00pm",
       "venue": "Legion Branch 012, GFW",
       "town": "Grand Falls-Windsor",
       "price": null,
@@ -842,8 +842,8 @@
       "recurrenceDetail": null,
       "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1494379456125204/",
       "sourceType": "comment (Elaine Smith) 2026-11-16",
-      "lastVerified": "2026-11-16",
-      "notes": "Announced in a comment on the Nov 15-21 week-ahead post: Dave and Micole at the Legion Friday evening. No time stated. Community-comment listing; venue confirmation not independently established."
+      "lastVerified": "2026-11-17",
+      "notes": "Legion weekly flyer directly read by registry curator Nov 17 confirms Friday 7-9pm live entertainment with Nichole & Dave; spelling differs across original community comments. Venue and time confirmed; verify artist spelling with organizer."
     },
     {
       "id": "EVT-129-WED",
@@ -860,7 +860,7 @@
       "recurrenceDetail": "Weekly: Mon 5:30-6:30pm, Wed 8:15-9:15am, Thu Men's 7:15-8:15pm, Fri 12:10-12:50pm (multiple weekly days; see time schedule)",
       "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1494379456125204/",
       "sourceType": "comment (Michelle Critch) 2026-11-16",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "notes": "Additional weekly occurrence of EVT-129. Yoga sessions with Michelle Critch; announced in a comment on the Nov 15-21 week-ahead post. Community-comment listing; venue confirmation not independently established."
     },
     {
@@ -878,7 +878,7 @@
       "recurrenceDetail": "Weekly: Mon 5:30-6:30pm, Wed 8:15-9:15am, Thu Men's 7:15-8:15pm, Fri 12:10-12:50pm (multiple weekly days; see time schedule)",
       "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1494379456125204/",
       "sourceType": "comment (Michelle Critch) 2026-11-16",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "notes": "Additional weekly occurrence of EVT-129. Yoga sessions with Michelle Critch; announced in a comment on the Nov 15-21 week-ahead post. Community-comment listing; venue confirmation not independently established."
     },
     {
@@ -896,8 +896,48 @@
       "recurrenceDetail": "Weekly: Mon 5:30-6:30pm, Wed 8:15-9:15am, Thu Men's 7:15-8:15pm, Fri 12:10-12:50pm (multiple weekly days; see time schedule)",
       "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1494379456125204/",
       "sourceType": "comment (Michelle Critch) 2026-11-16",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "notes": "Additional weekly occurrence of EVT-129. Yoga sessions with Michelle Critch; announced in a comment on the Nov 15-21 week-ahead post. Community-comment listing; venue confirmation not independently established."
+    },
+    {
+      "multiday": null,
+      "weekday": null,
+      "price": null,
+      "recurring": false,
+      "recurrenceDetail": null,
+      "town": "Grand Falls-Windsor",
+      "lastVerified": "2026-11-17",
+      "id": "EVT-132",
+      "title": "Fun Spiel (Curling Club)",
+      "dates": [
+        "2026-11-21"
+      ],
+      "time": null,
+      "venue": "Exploits Regional Curling Club, 49 Lincoln Road, Grand Falls-Windsor",
+      "category": "Community",
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1494379456125204/",
+      "sourceType": "comment (Tracy Holloway) 2026-11-16",
+      "notes": "Community comment lists a Nov 21 fun spiel; start time not supplied and organizer confirmation not independently established."
+    },
+    {
+      "multiday": null,
+      "weekday": null,
+      "price": null,
+      "recurring": false,
+      "recurrenceDetail": null,
+      "town": "Grand Falls-Windsor",
+      "lastVerified": "2026-11-17",
+      "id": "EVT-133",
+      "title": "DJ Daniel Dee @ Kelly's Pub",
+      "dates": [
+        "2026-11-20"
+      ],
+      "time": "11:00pm-3:00am",
+      "venue": "Kelly's Pub",
+      "category": "Live Music",
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1494379456125204/",
+      "sourceType": "comment (Daniel Dee Roberts) 2026-11-16",
+      "notes": "Friday night set announced in community comment; venue confirmation not independently established."
     }
   ]
 }

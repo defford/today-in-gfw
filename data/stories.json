@@ -1,7 +1,7 @@
 {
-  "editionDate": "2026-11-10",
-  "editionTitle": "Tuesday, November 10, 2026",
-  "lastReviewed": "2026-11-10",
+  "editionDate": "2026-11-18",
+  "editionTitle": "Wednesday, November 18, 2026",
+  "lastReviewed": "2026-11-18",
   "stories": [
     {
       "id": "STORY-06",
@@ -40,21 +40,16 @@
     {
       "id": "STORY-05",
       "date": "2026-10-22",
-      "updated": "2026-10-30",
+      "updated": "2026-11-18",
       "topic": "Housing & planning",
-      "importance": "Written submissions due November 16, 4:30 p.m.",
-      "title": "Lincoln Road residential land proposal heads toward public hearing",
-      "summary": "Proposed amendments would redesignate Lincoln Road recreation open space for low- and medium-density residential use. Two copies of a signed written objection or representation must reach the Town Clerk by 4:30 p.m. on November 16. A public hearing is scheduled for November 18, 6:30–9 p.m., but may be cancelled if no objection is filed.",
-      "why": "The choice involves housing supply and the future of public open space. Residents can ask how the plan would protect walking connections while accommodating new homes.",
+      "importance": "November 18 hearing cancelled",
+      "title": "Lincoln Road hearing cancelled; final rezoning still unconfirmed",
+      "summary": "The Town announced at 3:15 p.m. on November 17 that the November 18 public hearing on proposed Lincoln Road residential land-use amendments is cancelled under sections 20 and 21(1) of the Urban and Rural Planning Act. The written-submission deadline has passed. Cancellation does not establish that the amendments have been finally registered or that development is approved.",
+      "why": "The proposed change from recreation open space to residential use raises questions about future housing and walking connections. The next verifiable step is the amendments' registration and any subsequent development proposal.",
       "source": "Town of Grand Falls-Windsor",
       "sourceUrl": "https://grandfallswindsor.com/notice-of-public-hearing-12/",
-      "deadline": "November 16, 4:30 p.m.",
-      "readTime": "2 min",
-      "action": {
-        "deadlineLabel": "Written submissions · November 16, 4:30 p.m.",
-        "text": "To make an objection or representation on the proposed Lincoln Road rezoning, deposit two copies of a signed written statement with the Town Clerk by the deadline. Check the Town's notice for hearing details.",
-        "until": "2026-11-16"
-      }
+      "deadline": "Hearing cancelled November 17",
+      "readTime": "2 min"
     },
     {
       "id": "STORY-07",

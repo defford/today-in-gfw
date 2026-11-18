@@ -43,14 +43,14 @@
           "date": "2026-11-16",
           "label": "Written-submission deadline",
           "detail": "Two copies of a signed written statement must reach the Town Clerk by 4:30 p.m.",
-          "state": "scheduled",
+          "state": "occurred",
           "sourceUrl": "https://grandfallswindsor.com/notice-of-public-hearing-12/"
         },
         {
           "date": "2026-11-18",
-          "label": "Hearing scheduled",
-          "detail": "6:30–9 p.m. at the Fire Hall; subject to cancellation if no objection is filed.",
-          "state": "scheduled",
+          "label": "Hearing originally scheduled (cancelled)",
+          "detail": "Originally scheduled for November 18, 6:30–9 p.m.; cancelled by Town notice November 17.",
+          "state": "cancelled",
           "sourceUrl": "https://grandfallswindsor.com/notice-of-public-hearing-12/"
         },
         {

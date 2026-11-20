@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-19",
-  "provenance": "Exploits Events Registry read 2026-11-19; Grand Falls-Windsor-only; added EVT-134 and EVT-135 from Town-post share, with source limitations stated; existing event IDs preserved.",
+  "asOf": "2026-11-20",
+  "provenance": "Exploits Events Registry read 2026-11-20 (Grand Falls-Windsor only); retained EVT-134 and EVT-135; updated parade start time from Nov 19 Town-post report; moved EVT-132 from Nov 21 to Nov 28 based on curator's postponement record; preserved stable IDs and other events. Unverified details labelled.",
   "totalActiveDated": 15,
   "events": [
     {
@@ -906,18 +906,18 @@
       "recurring": false,
       "recurrenceDetail": null,
       "town": "Grand Falls-Windsor",
-      "lastVerified": "2026-11-17",
+      "lastVerified": "2026-11-20",
       "id": "EVT-132",
       "title": "Fun Spiel (Curling Club)",
       "dates": [
-        "2026-11-21"
+        "2026-11-28"
       ],
       "time": null,
       "venue": "Exploits Regional Curling Club, 49 Lincoln Road, Grand Falls-Windsor",
       "category": "Community",
       "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1494379456125204/",
       "sourceType": "comment (Tracy Holloway) 2026-11-16",
-      "notes": "Community comment lists a Nov 21 fun spiel; start time not supplied and organizer confirmation not independently established."
+      "notes": "Previously announced for November 21; postponed to November 28 according to Tracy Holloway's November 19 comment recorded by the registry curator. Start time not provided; organizer confirmation not independently established."
     },
     {
       "multiday": null,
@@ -956,7 +956,7 @@
       "category": "Community",
       "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1497122022517614/",
       "sourceType": "Town of GFW post shared in community group; registry curator flyer read 2026-11-19",
-      "lastVerified": "2026-11-19",
+      "lastVerified": "2026-11-20",
       "notes": "Registry reports Church Road closes to traffic at 5 p.m.; free refreshments, children's loot bags, Santa Mailbox and Community Tree ornament. Based on Town-post share; independently accessible official Town notice not located."
     },
     {
@@ -970,14 +970,14 @@
       "dates": [
         "2026-12-05"
       ],
-      "time": null,
+      "time": "10:00 AM",
       "venue": "Grand Falls-Windsor (route not announced)",
       "price": null,
       "category": "Community",
       "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1497122022517614/",
       "sourceType": "Town of GFW post shared in community group; registry curator 2026-11-19",
-      "lastVerified": "2026-11-19",
-      "notes": "December 5 date mentioned in Town's park-lighting post shared in community group. Time and route not stated; verify dedicated announcement before presenting specifics."
+      "lastVerified": "2026-11-20",
+      "notes": "Registry curator reports 10:00 AM confirmed in Town of Grand Falls-Windsor's November 19 parade post. Route and float information referenced at grandfallswindsor.com/showme-events/santa-claus-parade-2026; direct page access was unavailable during editorial verification. Food-bank donations accepted; letters to Santa collected by Canada Post along the route."
     }
   ]
 }

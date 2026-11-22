@@ -8,7 +8,7 @@
       "title": "Lincoln Road: land use and housing",
       "theme": "Housing & public space",
       "location": "Lincoln Road",
-      "status": "Hearing cancelled; registration pending",
+      "status": "Hearing cancelled; registration unverified",
       "summary": "The Town cancelled the November 18 hearing on November 17, citing sections 20 and 21(1) of the Urban and Rural Planning Act. Proposed residential redesignation remains subject to verification of final registration and any subsequent development.",
       "whyItMatters": "The question is how additional housing might be balanced with existing recreation space and pedestrian connections. The final planning and site outcomes are not yet established.",
       "stages": [
@@ -47,16 +47,9 @@
           "sourceUrl": "https://grandfallswindsor.com/notice-of-public-hearing-12/"
         },
         {
-          "date": "2026-11-18",
-          "label": "Hearing originally scheduled (cancelled)",
-          "detail": "Originally scheduled for November 18, 6:30–9 p.m.; cancelled by Town notice November 17.",
-          "state": "cancelled",
-          "sourceUrl": "https://grandfallswindsor.com/notice-of-public-hearing-12/"
-        },
-        {
           "date": "2026-11-17",
           "label": "Public hearing cancelled",
-          "detail": "Town notice updated at 3:15 p.m. cancels the November 18 hearing under sections 20 and 21(1); this is not final registration.",
+          "detail": "The Town’s 3:15 p.m. update cancelled the hearing originally scheduled for November 18, 6:30–9 p.m., at the Fire Hall, citing sections 20 and 21(1). Final registration has not been verified.",
           "state": "occurred",
           "sourceUrl": "https://grandfallswindsor.com/notice-of-public-hearing-12/"
         }

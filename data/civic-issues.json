@@ -143,8 +143,8 @@
       "title": "2026 municipal by-election",
       "theme": "Local democracy",
       "location": "Town-wide",
-      "status": "Four candidates confirmed; advance poll scheduled",
-      "summary": "The Town's official election page now names four candidates for the December 1 council by-election: David (Pot) Canning, Andrew Little, Jamie Marshall and Wayde Thompson. Advance voting is November 21; regular polling locations are still pending publication.",
+      "status": "Four candidates confirmed; December 1 polling locations published",
+      "summary": "The Town lists four candidates for the December 1 council by-election and now links to a 2026 polling-stations document. Advance voting was scheduled November 21; turnout has not been independently confirmed.",
       "whyItMatters": "Residents will select a Council representative. The tracker will follow nominations, polling information, the declared result and the transition to a seated councillor.",
       "stages": [
         "By-election called",
@@ -154,15 +154,15 @@
         "Official result"
       ],
       "currentStage": 2,
-      "lastChecked": "2026-11-12",
-      "nextCheck": "2026-11-16",
-      "nextToWatch": "Monitor regular polling station announcements and candidate information; advance poll is November 21, 8 a.m.–8 p.m., at Windsor Pentecostal Church, 97 King Street.",
+      "lastChecked": "2026-11-23",
+      "nextCheck": "2026-12-01",
+      "nextToWatch": "Verify official election-day polling arrangements and then the declared result; do not infer turnout or outcome.",
       "known": [
         "The Town has published four official nominees: David (Pot) Canning, Andrew Little, Jamie Marshall and Wayde Thompson. Nominations closed after November 9.",
-        "The advance poll is scheduled for November 21, 8 a.m.–8 p.m., at 97 King Street (see the Town's election page for the venue name). The Town also describes voter and proxy rules on its official election page."
+        "The advance poll is scheduled for November 21, 8 a.m.–8 p.m., at 97 King Street (see the Town's election page for the venue name). The Town also describes voter and proxy rules on its official election page.",
+        "The Town's official election page now links to a 2026 Polling Stations document for December 1 voting."
       ],
       "openQuestions": [
-        "Where will regular polling stations be located?",
         "What official result will be declared after the vote?"
       ],
       "milestones": [
@@ -183,7 +183,7 @@
         {
           "date": "2026-11-21",
           "label": "Advance poll scheduled",
-          "detail": "8 a.m.–8 p.m.; see the Town's election page for venue and voter requirements.",
+          "detail": "Advance voting was scheduled 8 a.m.–8 p.m. at 97 King Street; completion and turnout have not been independently verified.",
           "state": "scheduled",
           "sourceUrl": "https://grandfallswindsor.com/municipal-by-election-2026/"
         },
@@ -196,16 +196,16 @@
         }
       ],
       "action": {
-        "title": "Advance voting November 21",
-        "details": "Eligible residents can vote November 21 from 8 a.m. to 8 p.m. at 97 King Street (see the Town's page for the venue name). Check the Town's election page for voting rules and updated polling locations.",
-        "until": "2026-11-21",
+        "title": "Election day December 1",
+        "details": "Eligible residents can vote December 1, 8 a.m.–8 p.m. Check the official Town polling-stations document and voter/proxy instructions.",
+        "until": "2026-12-01",
         "url": "https://grandfallswindsor.com/municipal-by-election-2026/"
       },
       "sources": [
         {
           "label": "Town of Grand Falls-Windsor — Municipal By-Election 2026",
           "url": "https://grandfallswindsor.com/municipal-by-election-2026/",
-          "checked": "2026-11-12"
+          "checked": "2026-11-23"
         }
       ],
       "revisions": [
@@ -223,6 +223,11 @@
           "date": "2026-11-12",
           "kind": "update",
           "note": "Town election page now publishes the official four-candidate list; nomination milestone marked occurred. Regular polling locations remain unannounced."
+        },
+        {
+          "date": "2026-11-23",
+          "kind": "update",
+          "note": "Town election page now links to polling-stations document; replaced expired advance-vote action with December 1 voting information. No turnout or result inferred."
         }
       ]
     },

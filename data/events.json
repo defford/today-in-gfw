@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-11-20",
-  "provenance": "Exploits Events Registry read 2026-11-20 (Grand Falls-Windsor only); retained EVT-134 and EVT-135; updated parade start time from Nov 19 Town-post report; moved EVT-132 from Nov 21 to Nov 28 based on curator's postponement record; preserved stable IDs and other events. Unverified details labelled. Targeted Nov. 22 Facebook roundup check added CNVAS admission by donation and a visibly unconfirmed community report for Brian Gruchy; no full registry refresh in this change.",
-  "totalActiveDated": 16,
+  "asOf": "2026-11-23",
+  "provenance": "Exploits Events Registry read 2026-11-23 (updated 11:28 UTC); Grand Falls-Windsor-only dated and recurring entries reviewed for Nov 23–Dec 14. Existing Brian Gruchy stable ID retained, time and source confidence updated from Nov 23 Legion flyer reported by registry curator; added EVT-139 EVC Mistletoe Market from Nov 23 curator flyer record. Registry read-only; no independent venue confirmation claimed.",
+  "totalActiveDated": 10,
   "events": [
     {
       "id": "EVT-001",
@@ -981,23 +981,43 @@
     },
     {
       "id": "EVT-GFW-20261127-LEGION-GRUCHY",
-      "title": "Live Music: Brian Gruchy (community-reported, unconfirmed)",
+      "title": "Live Music: Brian Gruchy",
       "dates": [
         "2026-11-27"
       ],
       "multiday": null,
       "weekday": null,
-      "time": null,
+      "time": "7:00-9:00pm",
       "venue": "Legion Branch 012, Grand Falls-Windsor",
       "town": "Grand Falls-Windsor",
       "price": null,
       "category": "Live Music",
       "recurring": false,
       "recurrenceDetail": null,
-      "sourceUrl": "https://www.facebook.com/groups/1465414595688357/posts/1501341728762310/?comment_id=1501346172095199",
-      "sourceType": "Facebook community comment",
-      "lastVerified": "2026-11-22",
-      "notes": "A Nov. 22 community comment reports Brian Gruchy at the Legion on Friday, Nov. 27. No time or admission price supplied; not independently confirmed by the venue or performer."
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1501446865418463/",
+      "sourceType": "Legion weekly flyer (registry curator direct visual read 2026-11-23)",
+      "lastVerified": "2026-11-23",
+      "notes": "Registry EVT-138: Friday Nov 27 Legion entertainment, 7–9 p.m. Curator reports direct flyer confirmation on Nov 23, corroborated by community comment. Venue announcement not independently accessible to this editorial pass."
+    },
+    {
+      "id": "EVT-139",
+      "title": "EVC Mistletoe Market",
+      "dates": [
+        "2026-11-28"
+      ],
+      "multiday": null,
+      "weekday": null,
+      "time": "10:00am-2:00pm",
+      "venue": "Memorial United Church",
+      "town": "Grand Falls-Windsor",
+      "price": "Admission by donation",
+      "category": "Markets & Fairs",
+      "recurring": false,
+      "recurrenceDetail": null,
+      "sourceUrl": "https://facebook.com/groups/1465414595688357/permalink/1501273552102461/",
+      "sourceType": "Community flyer (registry curator media read 2026-11-23)",
+      "lastVerified": "2026-11-23",
+      "notes": "Exploits Valley Community Market; curator reports flyer and community-comment corroboration. Venue and admission not independently confirmed by organizer."
     }
   ]
 }

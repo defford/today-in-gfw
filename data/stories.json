@@ -1,25 +1,25 @@
 {
   "editionDate": "2026-11-10",
   "editionTitle": "Tuesday, November 10, 2026",
-  "lastReviewed": "2026-11-10",
+  "lastReviewed": "2026-11-23",
   "stories": [
     {
       "id": "STORY-06",
       "date": "2026-10-13",
-      "updated": "2026-11-12",
+      "updated": "2026-11-23",
       "topic": "Local democracy",
-      "importance": "Advance voting November 21",
-      "title": "Council by-election: advance voting is November 21",
-      "summary": "The Town has published four official nominees for the December 1 council by-election: David (Pot) Canning, Andrew Little, Jamie Marshall and Wayde Thompson. Advance voting is Saturday, November 21, 8 a.m.–8 p.m., at Windsor Pentecostal Church, 97 King Street. Regular polling locations have not yet been posted on the Town's election page.",
-      "why": "The candidate list is now official, giving residents time to learn about their choices before advance voting. The Town's election page also explains eligibility and proxy-voting procedures.",
+      "importance": "December 1 election · polling stations posted",
+      "title": "Council by-election: December 1 voting and polling stations",
+      "summary": "The Town confirms four candidates for the December 1 council by-election: David (Pot) Canning, Andrew Little, Jamie Marshall and Wayde Thompson. Voting is scheduled for 8 a.m.–8 p.m. The Town's official election page now links to a polling-stations document. The November 21 advance poll has passed.",
+      "why": "Residents can now consult the official polling-station document and review voter identification, eligibility and proxy-voting procedures before election day.",
       "source": "Town of Grand Falls-Windsor",
       "sourceUrl": "https://grandfallswindsor.com/municipal-by-election-2026/",
-      "deadline": "November 21 advance poll",
+      "deadline": "December 1 election day",
       "readTime": "2 min",
       "action": {
-        "deadlineLabel": "Advance poll · November 21",
-        "text": "Eligible residents can vote at Windsor Pentecostal Church, 97 King Street, from 8 a.m. to 8 p.m. on November 21. Check the Town's election page for requirements and updates.",
-        "until": "2026-11-21"
+        "deadlineLabel": "Election day · December 1",
+        "text": "Check the Town's official polling-stations document for where to vote December 1, 8 a.m.–8 p.m. Review voter and proxy requirements before attending.",
+        "until": "2026-12-01"
       }
     },
     {
